@@ -14,7 +14,7 @@ const AboutComponent = () => (
 
             <div>
               <p>
-              I’m a Full Stack Developer focused on building web applications using ASP.NET Core and React, with deployment to Linux servers such as Hetzner VPS and a home-based Ubuntu server.              
+              I’m a Full Stack Developer focused on building web applications using ASP.NET Core and React, with deployment to Linux servers such as Hetzner VPS and a home-based Ubuntu server.
               </p>
               <p>
               Currently, I’m looking for opportunities to apply my skills professionally.
