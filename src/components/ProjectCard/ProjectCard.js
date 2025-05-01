@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Button, Card, Carousel } from 'react-bootstrap';
 import { propTypes } from 'react-bootstrap/esm/Image';
+import { FaExternalLinkAlt } from 'react-icons/fa';
+import { FaGithub, FaLink } from 'react-icons/fa6';
 
 
 const ProjectCard = ({title, images, description, liveUrl, gitHubUrl }) => (
@@ -38,7 +40,8 @@ const ProjectCard = ({title, images, description, liveUrl, gitHubUrl }) => (
           rel='noopener noreferrer'
           className='me-2'
         >
-          View
+          <FaLink className='me-1'/>
+          Link
         </Button>
       )}
       {gitHubUrl && (
@@ -49,6 +52,7 @@ const ProjectCard = ({title, images, description, liveUrl, gitHubUrl }) => (
           rel='noopener noreferrer'
           className='me-2'
         >
+          <FaGithub className='me-2'/>
           GitHub
         </Button>
       )}

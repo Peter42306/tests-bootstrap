@@ -5,19 +5,35 @@ import YouTubeCard from "../YouTubeCard/YouTubeCard";
 
 const allProjects = [
   {
-    title: "Group Info and Something here in the Card Title",
-    videoUrl: "https://www.youtube.com/embed/Uf234e_9bmU",
-    description: "Sample React app with music group information",
+    title: "Dordrecht, the Netherlands | A Walking Tour | Slideshow 4K",
+    videoUrl: "https://www.youtube.com/embed/sBvehz1zdqM",
+    description: "A walking tour through the charming city of Dordrecht , the Netherlands, presented in the form of a 4K photo slideshow. Quiet canals, boats gently moored beside parked cars, and a deep sense of care in every detail of each home.",
   },
   {
-    title: "Group Info and Something here in the Card Title",
-    videoUrl: "https://www.youtube.com/embed/Uf234e_9bmU",
-    description: "Sample React app with music group information",
+    title: "Rotterdam, the Netherlands | A Walking Tour | Slideshow 4K",
+    videoUrl: "https://www.youtube.com/embed/COsrQyXmd64",
+    description: "A photo slideshow of a walking tour through Rotterdam, the Netherlands, in 4K. Explore the modern architecture, charming harbors, and vibrant streets of one of the most dynamic cities in Europe. From the Cube Houses and Erasmus Bridge to hidden corners and peaceful canals — discover Rotterdam’s unique atmosphere through photography.",
   },
   {
-    title: "Group Info and Something here in the Card Title",
-    videoUrl: "https://www.youtube.com/embed/Uf234e_9bmU",
-    description: "Sample React app with music group information",
+    title: "Antwerp, Belgium | A Walking Tour | Slideshow 4K",
+    videoUrl: "https://www.youtube.com/embed/SLybumx4nRA",
+    description: "A walking tour through the beautiful city of Antwerp, Belgium, presented in the form of a 4K photo slideshow. Discover the charm of its historic streets and iconic landmarks.",
+  },
+  {
+    title: "Brussels, Belgium | A Walking Tour | Slideshow 4K",
+    videoUrl: "https://www.youtube.com/embed/_O9Fsnle4cU",
+    description: "A walking tour through the beautiful city of Brussels, Belgium, presented in the form of a 4K photo slideshow. Discover the charm of its historic streets and iconic landmarks.",
+  },
+
+  {
+    title: "Ghent, Belgium | A Walking Tour | Slideshow 4K",
+    videoUrl: "https://www.youtube.com/embed/DbXGGh4xbg0",
+    description: "A walking tour through the beautiful city of Ghent, Belgium, presented in the form of a 4K photo slideshow. Discover the charm of its historic streets, canals, and iconic landmarks.",
+  },
+  {
+    title: "Sas van Gent, the Netherlands | A Walking Tour | Slideshow 4K",
+    videoUrl: "https://www.youtube.com/embed/b1KIuhg7POg",
+    description: "A walking tour through the charming Dutch town of Sas van Gent, presented in the form of a 4K photo slideshow. Explore its peaceful streets, canals, and local atmosphere",
   },
 ];
 

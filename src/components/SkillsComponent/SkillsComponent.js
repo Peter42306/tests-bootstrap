@@ -17,24 +17,24 @@ const SkillsComponent = () => (
 
               <p>
               <strong className="text-body-secondary">Backend:</strong><br/>
-              ASP.NET Core, ASP.NET MVC, Razor Pages, Web API, EF Core, C#, C++, SOLID, Design Patterns, UML, WinForms, WPF
+              ASP.NET Core MVC, Razor Pages, Web API, C#, Entity Framework Core, SOLID principles, Design Patterns, RESTful APIs, Authentication & Authorization, UML, WinForms, WPF, C++
               </p>              
               <p>
               <strong className="text-body-secondary">Frontend:</strong><br/>
               React, JS, HTML, CSS
-              </p>
-              <p>
-              <strong className="text-body-secondary">Deploy:</strong><br/>
-              Terminal-based deployment to Hetzner VPS and local home server (Ubuntu, Nginx, systemd, SSH, scp)
-              </p>
-              <p>
-              <strong className="text-body-secondary">Tools:</strong><br/>
-              Visual Studio, Visual Studio Code, MS SQL Server Management Studio, Git, GitHub
-              </p>
+              </p>              
               <p>
               <strong className="text-body-secondary">Databases:</strong><br/>
-              PostgreSQL, SQLite, MS SQL Server, T-SQL
+              MS SQL Server, SQLite, PostgreSQL, T-SQL, Code-First Migrations
               </p>              
+              <p>
+              <strong className="text-body-secondary">Deployment:</strong><br/>
+              VPS Deployment (Hetzner), Linux (Ubuntu Server), Nginx, systemd, SSH, scp
+              </p>              
+              <p>
+              <strong className="text-body-secondary">Tools:</strong><br/>
+              Visual Studio, Visual Studio Code, Git, GitHub, MS SQL Server Management Studio
+              </p>
             </div>
 
             {/*Download CV button*/}

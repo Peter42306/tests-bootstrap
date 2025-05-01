@@ -14,11 +14,18 @@ const AboutComponent = () => (
 
             <div>
               <p>
-              I’m a Full Stack Developer focused on building web applications using ASP.NET Core and React, with deployment to Linux servers such as Hetzner VPS and a home-based Ubuntu server.
+                I’m a Full Stack Developer building web applications using ASP.NET Core and React.
               </p>
               <p>
-              Currently, I’m looking for opportunities to apply my skills professionally.
+                I've deployed several personal and training projects to Linux servers (Hetzner VPS and home server) using Nginx and systemd.              
               </p>
+              <p>
+                You can find examples of my deployed work in the <strong>Projects</strong> section.
+              </p>
+              <p>
+                Based at Constanta, Romania. Open to relocation and remote work.
+              </p>              
+              
             </div>
           </Card.Body>
   </Card>
