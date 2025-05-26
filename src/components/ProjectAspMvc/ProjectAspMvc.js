@@ -4,115 +4,30 @@ import ProjectCard from '../ProjectCard/ProjectCard';
 
 const allProjects = [
   {
-    title: 'Group Info and Something here in the Card Title',
+    title: 'Students/Admin/Users Template',
     images:[
-      '/images/20241120_201928.jpg',
-      '/images/20241121_162856.jpg',
-      '/images/20241121_171915.jpg'
+      '/images/Screenshot_2025-05-10_195706.jpg',
+      '/images/Screenshot_2025-05-10_195802.jpg',
+      '/images/Screenshot_2025-05-10_195855.jpg',
+      '/images/Screenshot_2025-05-10_195931.jpg',
+      '/images/Screenshot_2025-05-10_200145.jpg',
+      '/images/Screenshot_2025-05-10_200249.jpg'      
     ],
-    description: 'Sample React app with music group information',
+    description: 'Template with authentication, role-based access (Admin/User), entity CRUD (Student),  view models, image upload (IImageService), clean architecture (IRepository, AutoMapper), and SQLite database.',
     liveUrl: 'http://p.zalizko.site/react-projects/1-music-group-info/',
-    gitHubUrl: 'https://github.com/Peter42306'
+    gitHubUrl: 'https://github.com/Peter42306/StudentsAdminEditors.git'
   },
   {
-    title: 'Group Info',
+    title: 'Title for empty card',
     images:[
       '/images/20241120_201928.jpg',
       '/images/20241121_162856.jpg',
       '/images/20241121_171915.jpg'
     ],
-    description: 'Sample React Sample React app with music group information app with music group information Sample React app with music group information',
-    liveUrl: 'http://p.zalizko.site/react-projects/1-music-group-info/',
-    gitHubUrl: 'https://github.com/Peter42306'
-  },
-  {
-    title: 'Group Info',
-    images:[
-      '/images/20241120_201928.jpg',
-      '/images/20241121_162856.jpg',
-      '/images/20241121_171915.jpg'
-    ],
-    description: 'Sample Sample React app with music Sample Sample React app with music group information React app with music group information group Sample React app with music group information information React app with music group information',
-    liveUrl: 'http://p.zalizko.site/react-projects/1-music-group-info/',
-    gitHubUrl: 'https://github.com/Peter42306'
-  },
-  {
-    title: 'Group Info',
-    images:[
-      '/images/20241120_201928.jpg',
-      '/images/20241121_162856.jpg',
-      '/images/20241121_171915.jpg'
-    ],
-    description: 'Sample Sample React app with music Sample Sample React app with music group information React app with music group information group Sample React app with music group information information React app with music group information',
-    liveUrl: 'http://p.zalizko.site/react-projects/1-music-group-info/',
-    gitHubUrl: 'https://github.com/Peter42306'
-  },
-  {
-    title: 'Group Info',
-    images:[
-      '/images/20241120_201928.jpg',
-      '/images/20241121_162856.jpg',
-      '/images/20241121_171915.jpg'
-    ],
-    description: 'Sample Sample React app with music Sample Sample React app with music group information React app with music group information group Sample React app with music group information information React app with music group information',
-    liveUrl: 'http://p.zalizko.site/react-projects/1-music-group-info/',
-    gitHubUrl: 'https://github.com/Peter42306'
-  },
-  {
-    title: 'Group Info',
-    images:[
-      '/images/20241120_201928.jpg',
-      '/images/20241121_162856.jpg',
-      '/images/20241121_171915.jpg'
-    ],
-    description: 'Sample Sample React app with music Sample Sample React app with music group information React app with music group information group Sample React app with music group information information React app with music group information',
-    liveUrl: 'http://p.zalizko.site/react-projects/1-music-group-info/',
-    gitHubUrl: 'https://github.com/Peter42306'
-  },
-  {
-    title: 'Group Info',
-    images:[
-      '/images/20241120_201928.jpg',
-      '/images/20241121_162856.jpg',
-      '/images/20241121_171915.jpg'
-    ],
-    description: 'Sample Sample React app with music Sample Sample React app with music group information React app with music group information group Sample React app with music group information information React app with music group information',
-    liveUrl: 'http://p.zalizko.site/react-projects/1-music-group-info/',
-    gitHubUrl: 'https://github.com/Peter42306'
-  },
-  {
-    title: 'Group Info',
-    images:[
-      '/images/20241120_201928.jpg',
-      '/images/20241121_162856.jpg',
-      '/images/20241121_171915.jpg'
-    ],
-    description: 'Sample Sample React app with music Sample Sample React app with music group information React app with music group information group Sample React app with music group information information React app with music group information',
-    liveUrl: 'http://p.zalizko.site/react-projects/1-music-group-info/',
-    gitHubUrl: 'https://github.com/Peter42306'
-  },
-  {
-    title: 'Group Info',
-    images:[
-      '/images/20241120_201928.jpg',
-      '/images/20241121_162856.jpg',
-      '/images/20241121_171915.jpg'
-    ],
-    description: 'Sample React app with music group information',
-    liveUrl: 'http://p.zalizko.site/react-projects/1-music-group-info/',
-    gitHubUrl: 'https://github.com/Peter42306'
-  },
-  {
-    title: 'Group Info',
-    images:[
-      '/images/20241120_201928.jpg',
-      '/images/20241121_162856.jpg',
-      '/images/20241121_171915.jpg'
-    ],
-    description: 'Sample React app with music group information',
-    liveUrl: 'http://p.zalizko.site/react-projects/1-music-group-info/',
-    gitHubUrl: 'https://github.com/Peter42306'
-  },
+    description: 'Here should be description for empty card',
+    liveUrl: 'https://github.com/Peter42306/',
+    gitHubUrl: 'https://github.com/Peter42306/'
+  },  
 ];
 
 const ProjectAspMvc = () => {
