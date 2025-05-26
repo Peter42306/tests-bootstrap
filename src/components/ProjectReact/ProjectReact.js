@@ -4,29 +4,78 @@ import ProjectCard from '../ProjectCard/ProjectCard';
 import { Col, Form, Pagination, Row } from 'react-bootstrap';
 
 const allProjects = [
+  
   {
-    title: 'Misic Group Brief Information',
+    title: 'Book Shop with Pagination and Order Form',
+    images:[
+      '/images/Screenshot-2025-05-26-205601.jpg',
+      '/images/Screenshot-2025-05-26-205811.jpg',
+      '/images/Screenshot-2025-05-26-205830.jpg',
+      '/images/Screenshot-2025-05-26-210045.jpg',
+      '/images/Screenshot-2025-05-26-210113.jpg'
+    ],
+    description: 'A simple React project simulating a book store. Includes paginated product cards, a dynamic order form and a modal order confirmation.',
+    liveUrl: 'https://p.zalizko.site/react-projects/5-book-shop/',
+    gitHubUrl: 'https://github.com/Peter42306/app-hw-2024-12-21-1325'
+  },    
+  {
+    title: 'Vessels Info App with React Router & Bootstrap',
+    images:[
+      '/images/Screenshot-2025-05-26-220945.jpg',
+      '/images/Screenshot-2025-05-26-221008.jpg',
+      '/images/Screenshot-2025-05-26-221032.jpg',
+      '/images/Screenshot-2025-05-26-221101.jpg',
+      '/images/Screenshot-2025-05-26-221125.jpg',
+      '/images/Screenshot-2025-05-26-221146.jpg'
+    ],
+    description: 'A React application with React Router. Each page displays main ship data. The app demonstrates nested routes, props, and reusable components.',
+    liveUrl: 'https://p.zalizko.site/react-projects/6-navigation-vessels/#/',
+    gitHubUrl: 'https://github.com/Peter42306/app-hw-navigation'
+  },    
+  {
+    title: 'City Info Cards with Image Carousel',
+    images:[
+      '/images/Screenshot-2025-05-26-214241.jpg',
+      '/images/Screenshot-2025-05-26-214310.jpg',
+      '/images/Screenshot-2025-05-26-214339.jpg'
+    ],
+    description: 'A React project displaying information cards for selected cities. Each card includes basic city facts and a carousel of images. The project demonstrates use of props, image carousels, and component reusability.',
+    liveUrl: 'https://p.zalizko.site/react-projects/2-avatars-cat-and-dog/',
+    gitHubUrl: 'https://github.com/Peter42306/app-hw-2024-12-21-1325'
+  },
+  {
+    title: 'Photo Gallery',
+    images:[
+      '/images/Screenshot-2025-05-26-215307.jpg',
+      '/images/Screenshot-2025-05-26-215357.jpg',
+      '/images/Screenshot-2025-05-26-215414.jpg',
+      '/images/Screenshot-2025-05-26-215502.jpg'
+    ],
+    description: 'A simple React gallery project displaying travel photos using image carousels. Designed to practice working with image arrays, props, and layout components. Images rotate per city with minimal structure.',
+    liveUrl: 'https://p.zalizko.site/react-projects/4-city-carousel/',
+    gitHubUrl: 'https://github.com/Peter42306/app-hw-2024-12-21-1325'
+  },
+  {
+    title: 'Music Band Brief Information',
     images:[
       '/images/Screenshot-2025-05-26-152306.jpg',
       '/images/Screenshot-2025-05-26-152422.jpg',
       '/images/Screenshot-2025-05-26-152441.jpg',
       '/images/Screenshot-2025-05-26-152459.jpg'
     ],
-    description: 'A simple React app showcasing a music band page with members details and details of several albums. One of my first learning projects.',
+    description: 'A simple React app showcasing a music band page, including member profiles and information about several albums. Built as a beginner React project to practice working with components and props.',
     liveUrl: 'https://p.zalizko.site/react-projects/1-music-group-info/',
     gitHubUrl: 'https://github.com/Peter42306/my-app-hw2'
   },  
   {
-    title: 'Empty card',
+    title: 'Team Member Cards',
     images:[
-      '/images/20241120_201928.jpg',
-      '/images/20241121_162856.jpg',
-      '/images/20241121_171915.jpg'
+      '/images/Screenshot-2025-05-26-213445.jpg'
     ],
-    description: 'Here should be description for empty card.',
-    liveUrl: 'https://github.com/Peter42306',
-    gitHubUrl: 'https://github.com/Peter42306'
-  },
+    description: 'A simple React component displaying user profile cards with photo, name, position, and social media links. Demonstrates use of props and component composition.',
+    liveUrl: 'https://p.zalizko.site/react-projects/2-avatars-cat-and-dog/',
+    gitHubUrl: 'https://github.com/Peter42306/app-hw-2024-12-21-1325'
+  },    
 ];
 
 const ProjectReact = () => {
