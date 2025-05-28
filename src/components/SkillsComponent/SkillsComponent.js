@@ -17,19 +17,20 @@ const SkillsComponent = () => (
 
               <p>
               <strong className="text-body-secondary">Backend:</strong><br/>
-              ASP.NET Core MVC, Razor Pages, Web API, C#, Entity Framework Core, SOLID principles, Design Patterns, RESTful APIs, Authentication & Authorization, UML, WinForms, WPF, C++
-              </p>              
-              <p>
-              <strong className="text-body-secondary">Frontend:</strong><br/>
-              React, JS, HTML, CSS
+              C#, ASP.NET Core (MVC, Web API, Razor Pages), Entity Framework Core (Code First), RESTful APIs, Authentication & Authorization (ASP.NET Identity, JWT), SOLID principles, Design Patterns, UML, WinForms, WPF, C++
               </p>              
               <p>
               <strong className="text-body-secondary">Databases:</strong><br/>
-              MS SQL Server, SQLite, PostgreSQL, T-SQL, Code-First Migrations
+              SQL Server, SQLite, PostgreSQL, T-SQL
               </p>              
               <p>
+              <strong className="text-body-secondary">Frontend:</strong><br/>
+              React, JavaScript, HTML, CSS
+              </p>              
+              
+              <p>
               <strong className="text-body-secondary">Deployment:</strong><br/>
-              VPS Deployment (Hetzner), Linux (Ubuntu Server), Nginx, systemd, SSH, scp
+              Linux (Ubuntu Server), VPS Deployment (Hetzner Cloud), Nginx, systemd, SSH, SCP
               </p>              
               <p>
               <strong className="text-body-secondary">Tools:</strong><br/>
@@ -41,7 +42,7 @@ const SkillsComponent = () => (
             <div>
               <Button 
                 variant='outline-success'
-                href='/files/Petr_Zalizko_CV_.NET_Dev.pdf'
+                href={`${process.env.PUBLIC_URL}/files/Petr_Zalizko_CV_.NET_Dev.pdf`}
                 target='_blank'
                 rel='noopener noreferrer'
               >

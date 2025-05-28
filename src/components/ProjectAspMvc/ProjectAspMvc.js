@@ -6,12 +6,22 @@ const allProjects = [
   {
     title: 'Students/Admin/Users Template',
     images:[
-      '/images/Screenshot_2025-05-10_195706.jpg',
-      '/images/Screenshot_2025-05-10_195802.jpg',
-      '/images/Screenshot_2025-05-10_195855.jpg',
-      '/images/Screenshot_2025-05-10_195931.jpg',
-      '/images/Screenshot_2025-05-10_200145.jpg',
-      '/images/Screenshot_2025-05-10_200249.jpg'      
+      `${process.env.PUBLIC_URL}/images/20241120_201928.jpg`,
+
+      `${process.env.PUBLIC_URL}/images/Screenshot_2025-05-10_195706.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot_2025-05-10_195802.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot_2025-05-10_195855.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot_2025-05-10_195931.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot_2025-05-10_200145.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot_2025-05-10_200249.jpg`
+      
+
+      // '/images/Screenshot_2025-05-10_195706.jpg',
+      // '/images/Screenshot_2025-05-10_195802.jpg',
+      // '/images/Screenshot_2025-05-10_195855.jpg',
+      // '/images/Screenshot_2025-05-10_195931.jpg',
+      // '/images/Screenshot_2025-05-10_200145.jpg',
+      // '/images/Screenshot_2025-05-10_200249.jpg'      
     ],
     description: 'Template with authentication, role-based access (Admin/User), entity CRUD (Student),  view models, image upload (IImageService), clean architecture (IRepository, AutoMapper), and SQLite database.',
     liveUrl: 'http://p.zalizko.site/react-projects/1-music-group-info/',
@@ -20,9 +30,13 @@ const allProjects = [
   {
     title: 'Title for empty card',
     images:[
-      '/images/20241120_201928.jpg',
-      '/images/20241121_162856.jpg',
-      '/images/20241121_171915.jpg'
+      `${process.env.PUBLIC_URL}/images/20241120_201928.jpg`,
+      `${process.env.PUBLIC_URL}/images/20241121_162856.jpg`,
+      `${process.env.PUBLIC_URL}/images/20241121_171915.jpg`
+
+      // '/images/20241120_201928.jpg',
+      // '/images/20241121_162856.jpg',
+      // '/images/20241121_171915.jpg'      
     ],
     description: 'Here should be description for empty card',
     liveUrl: 'https://github.com/Peter42306/',

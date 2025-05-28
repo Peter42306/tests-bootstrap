@@ -4,11 +4,15 @@ import ProjectCard from '../ProjectCard/ProjectCard';
 
 const allProjects = [
   {
-    title: 'Title of empty card',
-    images:[
-      '/images/20241120_201928.jpg',
-      '/images/20241121_162856.jpg',
-      '/images/20241121_171915.jpg'
+    title: 'Title of Empty Card',
+    images:[      
+      `${process.env.PUBLIC_URL}/images/20241120_201928.jpg`,
+      `${process.env.PUBLIC_URL}/images/20241121_162856.jpg`,
+      `${process.env.PUBLIC_URL}/images/20241121_171915.jpg`
+
+      // '/images/20241120_201928.jpg',
+      // '/images/20241121_162856.jpg',
+      // '/images/20241121_171915.jpg'
     ],
     description: 'Here should be description for this card',
     liveUrl: 'https://github.com/Peter42306/',

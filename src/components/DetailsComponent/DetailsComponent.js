@@ -6,7 +6,9 @@ import { FaLocationDot, FaPhone } from 'react-icons/fa6';
 
 const DetailsComponent = () => (
   <Card className='mt-3'>
-    <Card.Img variant='top' src='/images/IMG_20240723_191756_1.jpg' alt='profile photo'/>
+    {/* <Card.Img variant='top' src='/images/IMG_20240723_191756_1.jpg' alt='profile photo'/> */}
+    
+    <Card.Img variant='top' src={`${process.env.PUBLIC_URL}/images/IMG_20240723_191756_1.jpg`} alt='profile photo'/>
     <Card.Body>
       <h4 className="mb-4 text-body-secondary">Petr Zalizko</h4>
       <p><FaUser className="me-3 text-success" /><span >.NET Developer</span></p>

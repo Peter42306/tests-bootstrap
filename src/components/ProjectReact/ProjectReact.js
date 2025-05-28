@@ -8,11 +8,17 @@ const allProjects = [
   {
     title: 'Book Shop with Pagination and Order Form',
     images:[
-      '/images/Screenshot-2025-05-26-205601.jpg',
-      '/images/Screenshot-2025-05-26-205811.jpg',
-      '/images/Screenshot-2025-05-26-205830.jpg',
-      '/images/Screenshot-2025-05-26-210045.jpg',
-      '/images/Screenshot-2025-05-26-210113.jpg'
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-26-205601.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-26-205811.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-26-205830.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-26-210045.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-26-210113.jpg`
+
+      // '/images/Screenshot-2025-05-26-205601.jpg',
+      // '/images/Screenshot-2025-05-26-205811.jpg',
+      // '/images/Screenshot-2025-05-26-205830.jpg',
+      // '/images/Screenshot-2025-05-26-210045.jpg',
+      // '/images/Screenshot-2025-05-26-210113.jpg'
     ],
     description: 'A simple React project simulating a book store. Includes paginated product cards, a dynamic order form and a modal order confirmation.',
     liveUrl: 'https://p.zalizko.site/react-projects/5-book-shop/',
@@ -21,12 +27,19 @@ const allProjects = [
   {
     title: 'Vessels Info App with React Router & Bootstrap',
     images:[
-      '/images/Screenshot-2025-05-26-220945.jpg',
-      '/images/Screenshot-2025-05-26-221008.jpg',
-      '/images/Screenshot-2025-05-26-221032.jpg',
-      '/images/Screenshot-2025-05-26-221101.jpg',
-      '/images/Screenshot-2025-05-26-221125.jpg',
-      '/images/Screenshot-2025-05-26-221146.jpg'
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-26-220945.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-26-221008.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-26-221032.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-26-221101.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-26-221125.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-26-221146.jpg`
+
+      // '/images/Screenshot-2025-05-26-220945.jpg',
+      // '/images/Screenshot-2025-05-26-221008.jpg',
+      // '/images/Screenshot-2025-05-26-221032.jpg',
+      // '/images/Screenshot-2025-05-26-221101.jpg',
+      // '/images/Screenshot-2025-05-26-221125.jpg',
+      // '/images/Screenshot-2025-05-26-221146.jpg'
     ],
     description: 'A React application with React Router. Each page displays main ship data. The app demonstrates nested routes, props, and reusable components.',
     liveUrl: 'https://p.zalizko.site/react-projects/6-navigation-vessels/#/',
@@ -35,21 +48,30 @@ const allProjects = [
   {
     title: 'City Info Cards with Image Carousel',
     images:[
-      '/images/Screenshot-2025-05-26-214241.jpg',
-      '/images/Screenshot-2025-05-26-214310.jpg',
-      '/images/Screenshot-2025-05-26-214339.jpg'
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-26-214241.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-26-214310.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-26-214339.jpg`
+
+      // '/images/Screenshot-2025-05-26-214241.jpg',
+      // '/images/Screenshot-2025-05-26-214310.jpg',
+      // '/images/Screenshot-2025-05-26-214339.jpg'
     ],
     description: 'A React project displaying information cards for selected cities. Each card includes basic city facts and a carousel of images. The project demonstrates use of props, image carousels, and component reusability.',
-    liveUrl: 'https://p.zalizko.site/react-projects/2-avatars-cat-and-dog/',
+    liveUrl: 'https://p.zalizko.site/react-projects/3-cities-carousels/',
     gitHubUrl: 'https://github.com/Peter42306/app-hw-2024-12-21-1325'
   },
   {
     title: 'Photo Gallery',
     images:[
-      '/images/Screenshot-2025-05-26-215307.jpg',
-      '/images/Screenshot-2025-05-26-215357.jpg',
-      '/images/Screenshot-2025-05-26-215414.jpg',
-      '/images/Screenshot-2025-05-26-215502.jpg'
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-26-215307.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-26-215357.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-26-215414.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-26-215502.jpg`
+
+      // '/images/Screenshot-2025-05-26-215307.jpg',
+      // '/images/Screenshot-2025-05-26-215357.jpg',
+      // '/images/Screenshot-2025-05-26-215414.jpg',
+      // '/images/Screenshot-2025-05-26-215502.jpg'
     ],
     description: 'A simple React gallery project displaying travel photos using image carousels. Designed to practice working with image arrays, props, and layout components. Images rotate per city with minimal structure.',
     liveUrl: 'https://p.zalizko.site/react-projects/4-city-carousel/',
@@ -58,19 +80,60 @@ const allProjects = [
   {
     title: 'Music Band Brief Information',
     images:[
-      '/images/Screenshot-2025-05-26-152306.jpg',
-      '/images/Screenshot-2025-05-26-152422.jpg',
-      '/images/Screenshot-2025-05-26-152441.jpg',
-      '/images/Screenshot-2025-05-26-152459.jpg'
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-26-152306.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-26-152422.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-26-152441.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-26-152459.jpg`
+
+      // '/images/Screenshot-2025-05-26-152306.jpg',
+      // '/images/Screenshot-2025-05-26-152422.jpg',
+      // '/images/Screenshot-2025-05-26-152441.jpg',
+      // '/images/Screenshot-2025-05-26-152459.jpg'
     ],
     description: 'A simple React app showcasing a music band page, including member profiles and information about several albums. Built as a beginner React project to practice working with components and props.',
     liveUrl: 'https://p.zalizko.site/react-projects/1-music-group-info/',
     gitHubUrl: 'https://github.com/Peter42306/my-app-hw2'
   },  
   {
+    title: 'Validation Form Template',
+    images:[
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-27-191404.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-27-191535.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-27-191732.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-27-191833.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-27-191934.jpg`
+
+      // '/images/Screenshot-2025-05-27-191404.jpg',
+      // '/images/Screenshot-2025-05-27-191535.jpg',
+      // '/images/Screenshot-2025-05-27-191732.jpg',
+      // '/images/Screenshot-2025-05-27-191833.jpg',
+      // '/images/Screenshot-2025-05-27-191934.jpg'
+    ],
+    description: 'A simple React form with real-time validation and visual feedback. The form supports dropdowns, radio buttons, checkboxes, and saves submitted data to a downloadable JSON file.',
+    liveUrl: 'https://p.zalizko.site/react-projects/validation-form-template/',
+    gitHubUrl: 'https://github.com/Peter42306/app-hw-2025-01-16-forms'
+  },  
+  {
+    title: 'Simple Calculator with Fixed Values',
+    images:[
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-27-193148.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-27-193225.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-27-193356.jpg`
+
+      // '/images/Screenshot-2025-05-27-193148.jpg',
+      // '/images/Screenshot-2025-05-27-193225.jpg',
+      // '/images/Screenshot-2025-05-27-193356.jpg'
+    ],
+    description: 'A minimalistic calculator built with React that takes a numeric input and computes fixed multipliers. Users can choose the number of decimal places and see a live history of calculations. Designed for practicing state management.',
+    liveUrl: 'https://p.zalizko.site/react-projects/calculator-for-fixed-values/',
+    gitHubUrl: 'https://github.com/Peter42306/app-hw-2025-01-16-forms'
+  },  
+  {
     title: 'Team Member Cards',
     images:[
-      '/images/Screenshot-2025-05-26-213445.jpg'
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-26-213445.jpg`
+
+      // '/images/Screenshot-2025-05-26-213445.jpg'
     ],
     description: 'A simple React component displaying user profile cards with photo, name, position, and social media links. Demonstrates use of props and component composition.',
     liveUrl: 'https://p.zalizko.site/react-projects/2-avatars-cat-and-dog/',

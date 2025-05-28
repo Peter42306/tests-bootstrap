@@ -6,9 +6,13 @@ const allProjects = [
   {
     title: 'Title for empty card',
     images:[
-      '/images/20241120_201928.jpg',
-      '/images/20241121_162856.jpg',
-      '/images/20241121_171915.jpg'
+      `${process.env.PUBLIC_URL}/images/20241120_201928.jpg`,
+      `${process.env.PUBLIC_URL}/images/20241121_162856.jpg`,
+      `${process.env.PUBLIC_URL}/images/20241121_171915.jpg`
+
+      // '/images/20241120_201928.jpg',
+      // '/images/20241121_162856.jpg',
+      // '/images/20241121_171915.jpg'      
     ],
     description: 'Here should be description for empty card.',
     liveUrl: 'http://p.zalizko.site/react-projects/1-music-group-info/',

@@ -14,16 +14,16 @@ const AboutComponent = () => (
 
             <div>
               <p>
-                I’m a Full Stack Developer building web applications using ASP.NET Core and React.
+                I’m a Full Stack Developer specializing in building web applications with ASP.NET Core and React.
+              </p>              
+              <p>
+                You can find some of my deployed applications in the <strong>Projects</strong> sectionin the navigation menu above.
               </p>
               <p>
-                I've deployed several personal and training projects to Linux servers (Hetzner VPS and home server) using Nginx and systemd.              
+                I work primarily with C#, ASP.NET Core, React, JavaScript, HTML. For data access, I typically use the Code First approach with Entity Framework Core, working with SQLite, PostgreSQL, and SQL Server.
               </p>
               <p>
-                You can find examples of my deployed work in the <strong>Projects</strong> section.
-              </p>
-              <p>
-                Based at Constanta, Romania. Open to relocation and remote work.
+                Based in Constanta, Romania, and open to full-time opportunities, relocation and remote work.
               </p>              
               
             </div>
