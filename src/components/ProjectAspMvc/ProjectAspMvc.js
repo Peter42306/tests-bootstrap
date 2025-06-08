@@ -2,17 +2,15 @@ import React, { useState } from 'react';
 import { Col, Form, Pagination, Row } from 'react-bootstrap';
 import ProjectCard from '../ProjectCard/ProjectCard';
 
-const allProjects = [
+const allProjects = [  
   {
-    title: 'Students/Admin/Users Template',
-    images:[
-      `${process.env.PUBLIC_URL}/images/20241120_201928.jpg`,
-
-      `${process.env.PUBLIC_URL}/images/Screenshot_2025-05-10_195706.jpg`,
+    title: 'Template Students CRUD, roles Admin/Editors',
+    images:[      
       `${process.env.PUBLIC_URL}/images/Screenshot_2025-05-10_195802.jpg`,
       `${process.env.PUBLIC_URL}/images/Screenshot_2025-05-10_195855.jpg`,
       `${process.env.PUBLIC_URL}/images/Screenshot_2025-05-10_195931.jpg`,
       `${process.env.PUBLIC_URL}/images/Screenshot_2025-05-10_200145.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot_2025-05-10_195706.jpg`,
       `${process.env.PUBLIC_URL}/images/Screenshot_2025-05-10_200249.jpg`
       
 
@@ -23,24 +21,45 @@ const allProjects = [
       // '/images/Screenshot_2025-05-10_200145.jpg',
       // '/images/Screenshot_2025-05-10_200249.jpg'      
     ],
-    description: 'Template with authentication, role-based access (Admin/User), entity CRUD (Student),  view models, image upload (IImageService), clean architecture (IRepository, AutoMapper), and SQLite database.',
+    description: 'Template with authentication, role-based access (Admin/User), admin panel, entity CRUD (Student),  view models, image upload (IImageService), clean architecture (IRepository, AutoMapper), and SQLite database.',
     liveUrl: 'http://p.zalizko.site/react-projects/1-music-group-info/',
     gitHubUrl: 'https://github.com/Peter42306/StudentsAdminEditors.git'
   },
   {
-    title: 'Title for empty card',
+    title: 'Template Students CRUD + PostgreSQL',
     images:[
-      `${process.env.PUBLIC_URL}/images/20241120_201928.jpg`,
-      `${process.env.PUBLIC_URL}/images/20241121_162856.jpg`,
-      `${process.env.PUBLIC_URL}/images/20241121_171915.jpg`
-
-      // '/images/20241120_201928.jpg',
-      // '/images/20241121_162856.jpg',
-      // '/images/20241121_171915.jpg'      
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-06-08-221145.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-06-08-221203.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-06-08-221221.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-06-08-221243.jpg`
+      
+      
+      // '/images/Screenshot-2025-06-08-221145.jpg',
+      // '/images/Screenshot-2025-06-08-221203.jpg',
+      // '/images/Screenshot-2025-06-08-221221.jpg',
+      // '/images/Screenshot-2025-06-08-221243.jpg',      
     ],
-    description: 'Here should be description for empty card',
-    liveUrl: 'https://github.com/Peter42306/',
-    gitHubUrl: 'https://github.com/Peter42306/'
+    description: 'Template with a basic CRUD and PostgreSQL. Testing PostgreSQL in a web environment.',
+    liveUrl: 'https://2-students-postgre.p.zalizko.site/Students',
+    gitHubUrl: 'https://github.com/Peter42306/StudentsPostgreSql'
+  },
+  {
+    title: 'Template Students CRUD + SQLite DB',
+    images:[
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-06-08-213359.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-06-08-213413.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-06-08-213432.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-06-08-213447.jpg`
+      
+      
+      // '/images/Screenshot-2025-06-08-213359.jpg',
+      // '/images/Screenshot-2025-06-08-213413.jpg',
+      // '/images/Screenshot-2025-06-08-213432.jpg',
+      // '/images/Screenshot-2025-06-08-213447.jpg',      
+    ],
+    description: 'Template with a basic CRUD and SQLite database. Testing SQLite in a web environment.',
+    liveUrl: 'https://1-students-sqlite.p.zalizko.site/Students',
+    gitHubUrl: 'https://github.com/Peter42306/StudentsSqlite'
   },  
 ];
 

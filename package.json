@@ -1,8 +1,7 @@
 {
   "name": "tests-bootstrap",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "/react-projects/portfolio/",
+  "private": true,  
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@testing-library/dom": "^10.4.0",

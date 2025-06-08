@@ -15,7 +15,7 @@ const DetailsComponent = () => (
       <p><FaHome className="me-3 text-success" /><span >Odessa, Ukraine</span></p>
       <p><FaLocationDot className="me-3 text-success" /><span >Constanta, Romania</span></p>
       <p><FaEnvelope className="me-3 text-success" /><span >pzalizko@gmail</span></p>
-      <p><FaPhone className="me-3 text-success" /><span >+38 067 480 48 46</span></p>
+      <p><FaPhone className="me-3 text-success" /><span >+380674804846</span></p>
     </Card.Body>
   </Card>
 );

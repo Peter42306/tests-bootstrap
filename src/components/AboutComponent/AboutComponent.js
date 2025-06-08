@@ -17,7 +17,7 @@ const AboutComponent = () => (
                 I’m a Full Stack Developer specializing in building web applications with ASP.NET Core and React.
               </p>              
               <p>
-                You can find some of my deployed applications in the <strong>Projects</strong> sectionin the navigation menu above.
+                You can find some of my deployed applications in the <strong>Projects</strong> section, in the navigation menu above.
               </p>
               <p>
                 I work primarily with C#, ASP.NET Core, React, JavaScript, HTML. For data access, I typically use the Code First approach with Entity Framework Core, working with SQLite, PostgreSQL, and SQL Server.
