@@ -17,29 +17,41 @@ const SkillsComponent = () => (
 
               <p>
               <strong className="text-body-secondary">Backend:</strong><br/>
-              C#, ASP.NET Core (MVC, Web API, Razor Pages), Entity Framework Core (Code First), RESTful APIs, Authentication & Authorization (ASP.NET Identity, JWT), SOLID principles, Design Patterns, UML, WinForms, WPF, C++
+              C#, ASP.NET Core (MVC, Web API)<br/>
+              ASP.NET Identity<br/>
+              Entity Framework Core (Code First, Migrations, LINQ)<br/>
+              Dependency Injection, SOLID Principles, Design Patterns
               </p>              
               <p>
               <strong className="text-body-secondary">Databases:</strong><br/>
-              SQL Server, SQLite, PostgreSQL, T-SQL
+              PostgreSQL, SQLite, MS SQL Server<br/>              
+              Tools: pgAdmin, SSMS, DB Browser 
               </p>              
               <p>
               <strong className="text-body-secondary">Frontend:</strong><br/>
-              React, JavaScript, HTML, CSS
+              React, JavaScript, HTML, CSS, Bootstrap
               </p>              
               
               <p>
               <strong className="text-body-secondary">Deployment:</strong><br/>
-              Linux (Ubuntu Server), VPS Deployment (Hetzner Cloud), Nginx, systemd, SSH, SCP
+              Linux (Ubuntu Server)<br/>
+              Nginx, systemd, SSH, scp<br/>
+              VPS hosting (Hetzner) 
               </p>              
               <p>
               <strong className="text-body-secondary">Tools:</strong><br/>
-              Visual Studio, Visual Studio Code, Git, GitHub, MS SQL Server Management Studio
+              Visual Studio, Visual Studio Code<br/>
+              Git, GitHub<br/>
+              QuestPDF (PDF export)<br/>
+              ClosedXML (Excel export)<br/>
+              ImageSharp (image processing)<br/>
+              MetadataExtractor<br/>
+              AutoMapper
               </p>
             </div>
 
             {/*Download CV button*/}
-            <div>
+            {/* <div>
               <Button 
                 variant='outline-success'
                 href={`${process.env.PUBLIC_URL}/files/Petr_Zalizko_CV_.NET_Dev.pdf`}
@@ -49,7 +61,7 @@ const SkillsComponent = () => (
                 <FaDownload className='me-2'/>
                 Download CV
               </Button>
-            </div>
+            </div> */}
           </Card.Body>
   </Card>
   </section>

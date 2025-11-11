@@ -4,19 +4,27 @@ import ProjectCard from '../ProjectCard/ProjectCard';
 
 const allProjects = [
   {
-    title: 'Title of Empty Card',
-    images:[      
-      `${process.env.PUBLIC_URL}/images/20241120_201928.jpg`,
-      `${process.env.PUBLIC_URL}/images/20241121_162856.jpg`,
-      `${process.env.PUBLIC_URL}/images/20241121_171915.jpg`
-
-      // '/images/20241120_201928.jpg',
-      // '/images/20241121_162856.jpg',
-      // '/images/20241121_171915.jpg'
+    title: 'Students Web API (CRUD + Swagger)',
+    images:[
+      `${process.env.PUBLIC_URL}/images/StudentsWebAPI-1.jpg`,
+      `${process.env.PUBLIC_URL}/images/StudentsWebAPI-2.jpg`,
+      `${process.env.PUBLIC_URL}/images/StudentsWebAPI-3.jpg`,
+      `${process.env.PUBLIC_URL}/images/StudentsWebAPI-4.jpg`,
+      `${process.env.PUBLIC_URL}/images/StudentsWebAPI-5.jpg`,
     ],
-    description: 'Here should be description for this card',
-    liveUrl: 'https://github.com/Peter42306/',
-    gitHubUrl: 'https://github.com/Peter42306/'
+    description: 'Template Web API with basic CRUD operations for Student entity and Swagger UI for testing.',
+    stack: 'ASP.NET Core Web API · EF Core · SQLite · Swagger (OpenAPI)',
+    gitHubUrl: 'https://github.com/Peter42306/StudentsWebAPI'
+  },  
+  {
+    title: 'Cars Web API (CRUD + Swagger)',
+    images:[
+      `${process.env.PUBLIC_URL}/images/CarsCRUDWebAPI.jpg`,
+      
+    ],
+    description: 'Template Web API with basic CRUD operations for Cars entity and Swagger UI for testing.',
+    stack: 'ASP.NET Core Web API · EF Core · SQLite · Swagger (OpenAPI)',
+    gitHubUrl: 'https://github.com/Peter42306/Cars.CRUD.WebAPI'
   },  
 ];
 
@@ -41,13 +49,14 @@ const ProjectAspApi = () => {
 
   return(
     <section id='projectsAspApi' className='mt-3'>
-    <h4>ASP.NET Web API Projects</h4>
+    <h4>ASP.NET Web API Templates</h4>
     <p>This section contains ASP.NET Core Web API projects with Swagger integration for endpoint visualization and testing.</p>       
 
     <Form.Select
       onChange={handleChange}
       value={itemsPerPage}
       className='w-auto mb-3'
+      size='sm'
     >
       <option value={1}>Show 1 project</option>
       <option value={3}>Show 3 projects</option>
@@ -64,7 +73,7 @@ const ProjectAspApi = () => {
     </Row>
 
     {totalPages > 1 && (
-      <Pagination className='mt-2 justify-content-center'>
+      <Pagination className='mt-2 justify-content-center' size='sm'>
         {[...Array(totalPages)].map((_,i) => (
           <Pagination.Item
             key={i}

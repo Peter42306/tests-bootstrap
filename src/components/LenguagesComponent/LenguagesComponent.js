@@ -9,13 +9,12 @@ const LenguagesComponent = () => (
             <h4 className="mb-4 text-body-secondary">
               <FaGlobeAmericas className="me-2 text-success" />
               Languages
-            </h4>
-
-            <div>
-              <span>English: Advanced</span><br/>
-              <span>Russian: Native</span><br/>
-              <span>Ukrainian: Native</span><br/>              
-            </div>
+            </h4>          
+            
+            <p>
+              English: Upper Intermediate (B2+)<br/>
+              Russian, Ukrainian: Native
+            </p>
           </Card.Body>
   </Card>
 );

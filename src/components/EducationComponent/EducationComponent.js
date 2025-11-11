@@ -17,7 +17,7 @@ const EducationComponent = () => (
           <h6 className="text-body-secondary"><strong>IT STEP Academy, Odessa, Ukraine</strong></h6>
           <p className="text-muted">
             <FaCalendarAlt className="me-3 text-success"/>
-            <span className="text-success">2021 - 2024</span>
+            <span className="text-success">2022 - 2024</span>
           </p>
           <p>
           Software Development
