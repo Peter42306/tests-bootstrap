@@ -42,6 +42,7 @@ const SkillsComponent = () => (
               <strong className="text-body-secondary">Tools:</strong><br/>
               Visual Studio, Visual Studio Code<br/>
               Git, GitHub<br/>
+              SendGrid (email service)<br/>
               QuestPDF (PDF export)<br/>
               ClosedXML (Excel export)<br/>
               ImageSharp (image processing)<br/>

@@ -117,7 +117,7 @@ const ProjectAspRazorPages = () => {
 
   return(
     <section id='projectsAspRazor' className='mt-3'>
-    <h4>Real-World Projects</h4>
+    <h4>Projects</h4>
     <p>Projects solving real tasks, deployed and available online.</p>
 
     <Form.Select
