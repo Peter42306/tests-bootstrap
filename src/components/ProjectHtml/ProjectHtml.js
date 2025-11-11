@@ -12,7 +12,7 @@ const allProjects = [
     description: 'Personal CV site, based on a W3Schools template. Responsive design, deployed.',
     liveUrl: 'https://p.zalizko.site/resume/developer/',
     stack: 'HTML · CSS · Bootstrap · Hetzner VPS',
-    gitHubUrl: 'https://github.com/Peter42306/StudentsAdminEditors.git'
+    gitHubUrl: 'https://github.com/Peter42306/my-cv-dev-html'
   },  
 ];
 
