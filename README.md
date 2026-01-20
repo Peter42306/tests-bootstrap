@@ -1,6 +1,6 @@
 # Portfolio Website
 
-A responsive personal portfolio website built with React to present personal projects and templates, technical skills, and professional experience.
+A personal portfolio website (SPA) built with React to present personal projects and templates, technical skills, and professional experience.
 
 ## Project highlights
 
