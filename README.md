@@ -9,6 +9,7 @@ A personal portfolio website (SPA) built with React to present personal projects
 - Clear, section-based layout optimized for quick review
 - Fast and intuitive navigation across page sections
 - Card-based project presentation
+- Client-side pagination for projects list
 - Real-world projects showcased with live demos and GitHub links
 - Responsive design using Bootstrap
 - Light / dark theme toggle
