@@ -1,4 +1,4 @@
-# Portfolio Website
+# Portfolio Website (SPA)
 
 A personal portfolio website (SPA) built with React to present personal projects and templates, technical skills, and professional experience.
 
