@@ -5,17 +5,28 @@ import ProjectCard from '../ProjectCard/ProjectCard';
 
 const allProjects = [
   {
-    title: 'Title for Empty Card',
+    title: 'Comments SPA',
     images:[
-      `${process.env.PUBLIC_URL}/images/StudentsWebAPI-1.jpg`,
-      `${process.env.PUBLIC_URL}/images/StudentsWebAPI-2.jpg`,
-      `${process.env.PUBLIC_URL}/images/StudentsWebAPI-3.jpg`,
-      `${process.env.PUBLIC_URL}/images/StudentsWebAPI-4.jpg`,
-      `${process.env.PUBLIC_URL}/images/StudentsWebAPI-5.jpg`,
+      `${process.env.PUBLIC_URL}/images/CommentsSPA_Screenshot_2026-01-21_120209_1.jpg`,
+      `${process.env.PUBLIC_URL}/images/CommentsSPA_Screenshot_2026-01-21_120240_2.jpg`,
+      `${process.env.PUBLIC_URL}/images/CommentsSPA_Screenshot_2026-01-21_120254_3.jpg`,      
     ],
-    description: 'Here should be description for empty card.',
-    liveUrl: 'https://github.com/Peter42306/',
-    gitHubUrl: 'https://github.com/Peter42306/'
+    description: 'Full-stack comments with nested replies, file uploads, and CAPTCHA protection (ASP.NET Core, React, PostgreSQL, Docker).',
+    stack: 'ASP.NET Core Web API · EF Core · PostgreSQL · React · Docker · Bootstrap · Hetzner VPS',
+    liveUrl: 'https://comments-spa.p.zalizko.site/',
+    gitHubUrl: 'https://github.com/Peter42306/CommentsSPA'
+  },  
+  {
+    title: 'Students',
+    images:[
+      `${process.env.PUBLIC_URL}/images/students-fullsttack_Screenshot_2026-01-20_105605-1.jpg`,
+      `${process.env.PUBLIC_URL}/images/students-fullsttack_Screenshot_2026-01-20_110908-2.jpg`,
+      `${process.env.PUBLIC_URL}/images/students-fullsttack_Screenshot_2026-01-20_110945-3.jpg`,      
+    ],
+    description: 'Full-stack CRUD template with file uploads: ASP.NET Core Web API + PostgreSQL (Docker) + React (Vite).',
+    stack: 'ASP.NET Core Web API · EF Core · PostgreSQL · React · Docker · Bootstrap · Hetzner VPS',
+    liveUrl: 'https://students.p.zalizko.site/students',
+    gitHubUrl: 'https://github.com/Peter42306/students-fullstack'
   },  
 ];
 
@@ -39,8 +50,8 @@ const ProjectReactApi = () => {
 
   return(
     <section id='projectsReactApi' className='mt-3'>
-    <h4>React + ASP.NET Core Web API Projects</h4>
-    <p>This section contains fullstack projects built with React and ASP.NET Core Web API.</p>       
+    <h4>Full-Stack Templates</h4>
+    <p>Dockerized full-stack templates: ASP.NET Core Web API + React + PostgreSQL.</p>       
 
     <Form.Select
       onChange={handleChange}

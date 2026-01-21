@@ -49,8 +49,8 @@ const ProjectAspApi = () => {
 
   return(
     <section id='projectsAspApi' className='mt-3'>
-    <h4>ASP.NET Web API Templates</h4>
-    <p>This section contains ASP.NET Core Web API projects with Swagger integration for endpoint visualization and testing.</p>       
+    <h4>ASP.NET Core Web API Templates</h4>
+    <p>Reference templates for ASP.NET Core Web API with Swagger integration for endpoint visualization and testing.</p>       
 
     <Form.Select
       onChange={handleChange}

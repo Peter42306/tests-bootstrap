@@ -238,7 +238,7 @@ const ProjectAspMvc = () => {
   return(
     <section id='projectsAspMvc' className='mt-3'>
     <h4>ASP.NET Core MVC Templates</h4>
-    <p>This section contains fullstack applications built with ASP.NET Core MVC.</p>       
+    <p>Reference templates for ASP.NET Core MVC.</p>       
 
     <Form.Select
       onChange={handleChange}

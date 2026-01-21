@@ -51,8 +51,9 @@ const ProjectCard = ({title, images, description, stack, liveUrl, gitHubUrl, you
           href={liveUrl}
           target='_blank'
           rel='noopener noreferrer'
-          className='me-1'
+          className='me-1 mb-1'
           size='sm'
+          style={{width: '94px'}}
         >
           <FaLink className='me-1'/>
           Link
@@ -64,8 +65,9 @@ const ProjectCard = ({title, images, description, stack, liveUrl, gitHubUrl, you
           href={gitHubUrl}
           target='_blank'
           rel='noopener noreferrer'
-          className='me-1'
+          className='me-1 mb-1'
           size='sm'
+          style={{width: '94px'}}
         >
           <FaGithub className='me-2'/>
           GitHub
@@ -77,8 +79,9 @@ const ProjectCard = ({title, images, description, stack, liveUrl, gitHubUrl, you
           href={youTubeUrl}
           target='_blank'
           rel='noopener noreferrer'
-          
+          className='me-1 mb-1'
           size='sm'
+          style={{width: '94px'}}
         >
           <FaYoutube className='me-2'/>
           YouTube

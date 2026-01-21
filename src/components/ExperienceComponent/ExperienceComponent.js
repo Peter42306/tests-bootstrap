@@ -25,11 +25,11 @@ const ExperienceComponent = () => {
           </p>
           
           <p>
-            Built and maintained full-stack web applications using ASP.NET Core (MVC, Web API, Razor Pages), Entity Framework Core (Code-First, Migrations, LINQ), relational databases (PostgreSQL, MS SQL Server, SQLite), and React for SPA development.
-          </p>
+            Built and maintained full-stack web applications with a backend focus, using ASP.NET Core (MVC, Web API), Entity Framework Core (Code-First, Migrations, LINQ), relational databases (PostgreSQL, MS SQL Server, SQLite), and React for SPA scenarios.
+          </p>          
 
           <p>
-            Implemented authentication and role-based authorization with ASP.NET Identity.
+            Implemented authentication and role-based authorization with ASP.NET Core Identity.
           </p>
           
           <p>
@@ -37,24 +37,20 @@ const ExperienceComponent = () => {
           </p>
 
           <p>
-            Used SQL and LINQ for data querying, filtering, and reporting.
+            Used SQL and LINQ for data querying, filtering, and generation of operational reports.
           </p>         
           
           <p>
-            Integrated email delivery via SendGrid, PDF generation with QuestPDF, Excel export with ClosedXML, and image processing via SixLabors.ImageSharp.
+            Integrated external services and libraries, including email delivery (SendGrid), PDF generation (QuestPDF), Excel export (ClosedXML), and image processing (SixLabors.ImageSharp).
           </p>
 
           <p>
-            Deployed apps to Linux servers (Ubuntu, Nginx, systemd, SSH) on a Hetzner VPS and in a self-hosted home-lab environment.
+            Deployed and maintained apps to Linux servers (Ubuntu, Nginx, systemd, SSH), including cloud VPS (Hetzner) and in a self-hosted home-lab environment.
           </p>
 
           <p>
-            Gained experience with C++, functional programming fundamentals, OOP principles, UML modeling, and desktop development using WinForms and WPF during ealier learning projects.
-          </p>
-
-          <p>
-            Open to full-time opportunities as a .NET Developer.
-          </p>         
+            Background in software fundamentals, including OOP, UML, basic C++, functional programming fundamentals, and desktop development with WinForms and WPF.
+          </p>                
                       
         </div>        
 
@@ -81,6 +77,7 @@ const ExperienceComponent = () => {
               aria-controls='marine-details-collapse'
               aria-expanded={openDetails}
               size='sm'
+              style={{width: '100px'}}
             >
               {openDetails ? 'Hide details' : 'Show details'}
             </Button>

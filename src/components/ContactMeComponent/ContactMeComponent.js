@@ -12,6 +12,8 @@ const ContactMeComponent = () => {
   const sendEmail = async (e) => {
     e.preventDefault();
 
+    //console.log("API URL:", process.env.REACT_APP_API_URL);
+
     const formData = new FormData(formRef.current);
 
     const payload = {
@@ -73,7 +75,7 @@ const ContactMeComponent = () => {
             type='email' 
             name='email' 
             placeholder='Email' 
-            pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+            //pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
             title='Enter a valid email address'
             required/>
         </Form.Group>

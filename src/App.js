@@ -14,7 +14,7 @@ import ProjectReact from './components/ProjectReact/ProjectReact';
 //import ProjectTrips from './components/ProjectTrips/ProjectTrips';
 import { useEffect, useState } from 'react';
 import BackToTopButton from './components/BackToTopButton/BackToTopButton';
-//import ProjectReactApi from './components/ProjectReactApi/ProjectReactApi';
+import ProjectReactApi from './components/ProjectReactApi/ProjectReactApi';
 import ProjectAspMvc from './components/ProjectAspMvc/ProjectAspMvc';
 import ProjectAspRazorPages from './components/ProjectAspRazorPages/ProjectAspRazorPages';
 import ProjectAspApi from './components/ProjectAspApi/ProjectAspApi';
@@ -53,31 +53,38 @@ function App() {
 
           <hr />
 
-          {/* Real-World Projects */}
+          {/* Real-World Projects, ignore component name */}
           <Row>
             <ProjectAspRazorPages />
           </Row>
 
           <hr />
 
+          {/* Full-stack Templates, Docker */}
+          <Row>
+              <ProjectReactApi />
+          </Row>            
 
-          {/* <Row>
-            <div className='d-flex align-items-center justify-content-between mt-3 mb-2'>
+          <hr />
+
+
+          <Row id='otherTemplates'>
+            <div className='d-flex flex-column flex-md-row align-items-center justify-content-between mt-3 mb-2'>
               <div>
-                <h4>Templates & Demos</h4>
-                <p>
-                  React, ASP.NET (MVC, Web API, Razor Pages), and static HTML.
+                <h4>Other Templates for Reference</h4>
+                <p className='mb-2 mb-md-0'>
+                  Reference templates for ASP.NET Core MVC, ASP.NET Core Web API, React without backend, and static HTML.
                 </p>
               </div>
               
-              <div>
+              <div className='mt-2 mt-md-0'>
                 <Button
                   variant='outline-success'
                   size='sm'
                   onClick={() => setShowTemplates(prev => !prev)}
                   aria-controls='template-demo-details'
                   aria-expanded={showTemplates}
-                  
+                  style={{width: '100px'}}                  
                 >
                   {showTemplates ? 'Hide' : 'Show'}
                 </Button>
@@ -85,16 +92,14 @@ function App() {
             </div>
           </Row>
 
-          <hr /> */}
+          <hr />
 
-          {/* <Collapse in={showTemplates}>
+          <Collapse in={showTemplates}>
           <div id='template-demo-details' className='mt-3'>                     
             
-            <Row>
-              <ProjectReact />
-            </Row>            
+            
 
-            <hr />
+            
 
             <Row>
               <ProjectAspMvc />
@@ -107,6 +112,12 @@ function App() {
             </Row>         
 
             <hr/>
+
+            <Row>
+              <ProjectReact />
+            </Row>            
+
+            <hr />
 
             <Row>
               <ProjectHtml/>
@@ -116,39 +127,9 @@ function App() {
 
           </div>
             
-          </Collapse> */}
+          </Collapse>
 
-          {/* Template Projects */}
-            <Row>
-              <ProjectReact />
-            </Row>
-
-            {/* <hr />
-            <Row>
-              <ProjectReactApi />
-            </Row> */}
-
-            <hr />
-
-            <Row>
-              <ProjectAspMvc />
-            </Row>         
-
-            <hr />
-
-            <Row>
-              <ProjectAspApi />
-            </Row>         
-
-            <hr/>
-
-            <Row>
-              <ProjectHtml/>
-            </Row>
-
-            <hr/>
-
-          {/* <hr /> */}
+          
             <Row>
               <ContactMeComponent />
             </Row>          

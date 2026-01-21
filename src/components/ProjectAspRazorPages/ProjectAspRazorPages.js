@@ -22,7 +22,7 @@ const allProjects = [
       `${process.env.PUBLIC_URL}/images/Screenshot_2025-11-05_214334.jpg`,      
     ],
     description: 'Application for ship officers and marine surveyors to perform draught survey calculation (cargo quantity on board). Main vessel information and hydrostatic tables are kept in the database, automatically autofill and recalculate, export of Excel report.',
-    stack: 'ASP.NET Core MVC, ASP.NET Identity, EF Core, PostgreSQL, ClosedXML, SendGrid, Bootstrap 5, Hetzner VPS',
+    stack: 'ASP.NET Core MVC · ASP.NET Identity · EF Core · PostgreSQL · ClosedXML · SendGrid · Bootstrap · Hetzner VPS',
     liveUrl: 'https://draught-survey.p.zalizko.site/',
     gitHubUrl: 'https://github.com/Peter42306/DraughtSurveyWebApp',
     youTubeUrl: 'https://youtu.be/w-mKc8zRkAc'
@@ -51,7 +51,7 @@ const allProjects = [
       
     ],
     description: 'Application for for weight control inspections with initial and final truck weighing, built for cargo surveyors and tally teams. Autocomplete of trucks plate number input, two control points, trucks status, convenient for teamwork, logo upload, export of PDF report.',
-    stack: 'ASP.NET Core MVC, ASP.NET Identity, EF Core, PostgreSQL, QuestPDF, SendGrid, Bootstrap 5, Hetzner VPS',
+    stack: 'ASP.NET Core MVC · ASP.NET Identity · EF Core · PostgreSQL · QuestPDF · SendGrid · Bootstrap · Hetzner VPS',
     liveUrl: 'https://trucks.p.zalizko.site/',
     gitHubUrl: 'https://github.com/Peter42306/TrucksWeighingWebApp',
     youTubeUrl: 'https://youtu.be/4bdfnxBKocM'
@@ -76,7 +76,7 @@ const allProjects = [
       
     ],
     description: 'Application for organizing and processing  photo sets. Extracts geo data, displays photos on an interactive map, builds routes based on timestamps, calculates distances between points, and generates PDF reports with customizable title and description.',
-    stack: 'ASP.NET Core MVC, SixLabors.ImageSharp, MetadataExtractor, Bootstrap, responsive disign',    
+    stack: 'ASP.NET Core MVC · SixLabors.ImageSharp · MetadataExtractor · Bootstrap',    
     gitHubUrl: 'https://github.com/Peter42306/PhotoLabWebApp',
     youTubeUrl: 'https://youtu.be/kZUVSQp2xVA'
   },  
@@ -91,7 +91,7 @@ const allProjects = [
             
     ],
     description: 'This website itself - a personal portfolio built as a single-page React application. Includes smooth section navigation, light/dark theme toggle, and a contact form sending messages through an ASP.NET Core API.',
-    stack: 'React SPA, React-Bootstrap, Contact Form via ASP.NET Core API (SendGrid email service), Hetzner VPS',
+    stack: 'React SPA · React-Bootstrap · Contact Form via ASP.NET Core API (SendGrid email service) · Hetzner VPS',
     liveUrl: 'https://p.zalizko.site/react-projects/portfolio/',
     gitHubUrl: 'https://github.com/Peter42306/tests-bootstrap'    
   },  

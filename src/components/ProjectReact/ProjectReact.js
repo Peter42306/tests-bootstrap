@@ -124,7 +124,7 @@ const ProjectReact = () => {
 
   <section id='projectsReact' className='mt-3'>
     <h4>React Templates</h4>
-    <p>At this section are shown frontend projects, without backend</p>       
+    <p>Reference frontend templates built with React, without backend.</p>       
 
     <Form.Select
       onChange={handleChange}

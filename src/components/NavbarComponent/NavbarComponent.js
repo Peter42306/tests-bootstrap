@@ -17,8 +17,10 @@ const NavbarComponent = ({ isDark, toggleTheme }) => (
           <Link to="experience" smooth={true} duration={500} className='nav-link' role='button'>Experience</Link>                    
           <Link to="education" smooth={true} duration={500} className='nav-link' role='button'>Education</Link>
           <Link to="projectsAspRazor" smooth={true} duration={500} className='nav-link' role='button'>Projects</Link>
+          <Link to="projectsReactApi" smooth={true} duration={500} className='nav-link' role='button'>Full-Stack Templates</Link>
+          <Link to="otherTemplates" smooth={true} duration={500} className='nav-link' role='button'>Other Templates</Link>
 
-          <NavDropdown title="Templates" id="projects-dropdown">
+          {/* <NavDropdown title="Templates" id="projects-dropdown">
             
             <NavDropdown.Item as='span'>
               <Link to="projectsReact" smooth={true} duration={500} className='nav-link' role='button'>React</Link>
@@ -31,19 +33,9 @@ const NavbarComponent = ({ isDark, toggleTheme }) => (
             </NavDropdown.Item>
             <NavDropdown.Item as='span'>
               <Link to="projectsHtml" smooth={true} duration={500} className='nav-link' role='button'>Html</Link>
-            </NavDropdown.Item>
+            </NavDropdown.Item>           
 
-            {/* <NavDropdown.Item as='span'>
-              <Link to="projectsReactApi" smooth={true} duration={500} className='nav-link' role='button'>React + ASP.NET Core Web API</Link>
-            </NavDropdown.Item> */}
-
-            {/* <NavDropdown.Divider/> */}
-            
-            {/* <NavDropdown.Item as='span'>
-              <Link to="projectsAspRazor" smooth={true} duration={500} className='nav-link' role='button'>Razor Pages</Link>
-            </NavDropdown.Item> */}            
-
-          </NavDropdown>
+          </NavDropdown> */}
 
           <Link to="contact" smooth={true} duration={500} className='nav-link' role='button'>Contact</Link>
                     
