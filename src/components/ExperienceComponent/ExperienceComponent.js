@@ -29,6 +29,18 @@ const ExperienceComponent = () => {
           </p>          
 
           <p>
+            Deployed and maintained applications on Linux servers (Ubuntu, Nginx, systemd, SSH), on a cloud VPS (Hetzner) and in a self-hosted home-lab environment.
+          </p>
+
+          <p>
+            Used Docker and Docker Compose for multi-container setups (API, database, frontend).
+          </p>
+
+          <p>
+            Integrated external services and libraries, including email delivery (SendGrid), PDF generation (QuestPDF), Excel export (ClosedXML), and image processing (SixLabors.ImageSharp).
+          </p>          
+
+          <p>
             Implemented authentication and role-based authorization with ASP.NET Core Identity.
           </p>
           
@@ -38,15 +50,7 @@ const ExperienceComponent = () => {
 
           <p>
             Used SQL and LINQ for data querying, filtering, and generation of operational reports.
-          </p>         
-          
-          <p>
-            Integrated external services and libraries, including email delivery (SendGrid), PDF generation (QuestPDF), Excel export (ClosedXML), and image processing (SixLabors.ImageSharp).
-          </p>
-
-          <p>
-            Deployed and maintained applications to Linux servers (Ubuntu, Nginx, systemd, SSH), on a cloud VPS (Hetzner) and in a self-hosted home-lab environment, using Docker and Docker Compose for multi-container setups (API, database, frontend).
-          </p>
+          </p>                  
 
           <p>
             Background in software fundamentals, including OOP, UML, basic C++, functional programming fundamentals, and desktop development with WinForms and WPF.
