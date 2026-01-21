@@ -45,7 +45,7 @@ const ExperienceComponent = () => {
           </p>
 
           <p>
-            Deployed and maintained apps to Linux servers (Ubuntu, Nginx, systemd, SSH), including cloud VPS (Hetzner) and in a self-hosted home-lab environment.
+            Deployed and maintained applications to Linux servers (Ubuntu, Nginx, systemd, SSH), on a cloud VPS (Hetzner) and in a self-hosted home-lab environment, using Docker and Docker Compose for multi-container setups (API, database, frontend).
           </p>
 
           <p>

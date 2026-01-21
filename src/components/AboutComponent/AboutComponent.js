@@ -19,11 +19,7 @@ const AboutComponent = () => (
 
               <p>
                 Experience deploying and maintaining applications on Linux servers.
-              </p>              
-
-              <p>
-                Open to full-time opportunities as a .NET Developer.
-              </p>   
+              </p>                            
               
               <p>
                 Based in Constanta, Romania. Open to relocation and remote work.

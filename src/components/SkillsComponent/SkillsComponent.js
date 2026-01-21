@@ -35,6 +35,7 @@ const SkillsComponent = () => (
               <p>
               <strong className="text-body-secondary">Deployment:</strong><br/>
               Linux (Ubuntu Server)<br/>
+              Docker, Docker Compose (multi-container applications)
               Nginx, systemd, SSH, scp<br/>
               VPS hosting (Hetzner) 
               </p>              
