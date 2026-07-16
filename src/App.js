@@ -39,16 +39,22 @@ function App() {
 
       <Container>
           <Row>
-            <Col sm={4}>
+            <Col xs={12} md={6} lg={4}>
               <DetailsComponent />
               <SkillsComponent />
               <LenguagesComponent />
             </Col>
-            <Col sm={8}>
+            <Col xs={12} md={6} lg={8}>
               <AboutComponent />
               <ExperienceComponent />
               <EducationComponent />
             </Col>
+          </Row>
+
+          <hr />
+
+          <Row>
+
           </Row>
 
           <hr />

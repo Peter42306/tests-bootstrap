@@ -6,7 +6,7 @@ import { FaCalendarAlt, FaGraduationCap, } from 'react-icons/fa';
 const EducationComponent = () => (
   <section id='education'>  
   <Card className='mt-3'>
-    <Card.Body>
+    <Card.Body className='px-0'>
         <h4 className="mb-4 text-body-secondary">
           <FaGraduationCap className="me-2 text-success" />
           Education

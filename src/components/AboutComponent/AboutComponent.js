@@ -6,7 +6,7 @@ import { FaUser } from 'react-icons/fa';
 const AboutComponent = () => (
   <section id='about'>
   <Card className='mt-3'>
-    <Card.Body>
+    <Card.Body className='px-0'>
             <h4 className="mb-4 text-body-secondary">
               <FaUser className="me-2 text-success" />
               About

@@ -10,7 +10,7 @@ const ExperienceComponent = () => {
   return(
     <section id='experience'>  
   <Card className='mt-3'>
-    <Card.Body>
+    <Card.Body className='px-0'>
         <h4 className="mb-4 text-body-secondary">
           <FaBriefcase className="me-2 text-success" />
           Experience
@@ -98,7 +98,8 @@ const ExperienceComponent = () => {
                 Conducted training sessions for seafarers at an international training center.
               </p>
               
-              <h6 className="text-body-secondary"><FaList className='me-2 text-success'/><strong>Experience</strong></h6>
+              <hr/>
+              <h6 className="text-body-secondary mb-3"><FaList className='me-2 text-success'/><strong>Experience</strong></h6>
               <ul className="list-unstyled mb-0 ps-0">
                 <li>1995-2009 - UMCS - Surveyor</li>
                 <li>2009-2018 - UMACS - Chief Surveyor</li>
@@ -114,7 +115,7 @@ const ExperienceComponent = () => {
 
               <hr/>
 
-              <h6 className="text-body-secondary"><FaList className='me-2 text-success'/><strong>Skills</strong></h6>              
+              <h6 className="text-body-secondary mb-3"><FaList className='me-2 text-success'/><strong>Skills</strong></h6>              
               <p>Vegetable Oil Inspections (loading and discharging supervision & organization of sampling as per FOSFA).</p>
               <p>Grain Inspections (loading and discharging supervision & organization of sampling as per GAFTA).</p>
               <p>Mineral Cargoes Inspections (loading and discharging supervision, sampling, can tests).</p>
@@ -129,7 +130,7 @@ const ExperienceComponent = () => {
 
               <hr/>
 
-              <h6 className="text-body-secondary"><FaList className='me-2 text-success'/><strong>Trainings</strong></h6>
+              <h6 className="text-body-secondary mb-3"><FaList className='me-2 text-success'/><strong>Trainings</strong></h6>
               <p>Conducted trainings for seafarers at an international training center, covering draught survey and bunker survey calculations.</p>                                    
             
             </div>          

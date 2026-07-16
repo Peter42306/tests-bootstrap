@@ -6,8 +6,8 @@ import { FaDownload, FaTools } from 'react-icons/fa';
 
 const SkillsComponent = () => (
   <section id='skills'>  
-  <Card className='mt-3'>
-    <Card.Body>
+  <Card className='mt-3 '>
+    <Card.Body className='px-0'>
             <h4 className="mb-4 text-body-secondary">
               <FaTools className="me-2 text-success" />
               Skills
