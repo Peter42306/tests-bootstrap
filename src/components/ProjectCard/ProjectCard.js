@@ -5,7 +5,14 @@ import { FaYoutube } from 'react-icons/fa';
 import { FaGithub, FaLink } from 'react-icons/fa6';
 
 
-const ProjectCard = ({title, images, description, stack, liveUrl, gitHubUrl, youTubeUrl }) => {
+const ProjectCard = ({
+  title, 
+  images, 
+  description, 
+  stack, 
+  liveUrl, 
+  gitHubUrl,   
+  youTubeUrl }) => {
   const[showModal, setShowModal] = useState(false);
   const[startIndex, setStartIndex] = useState(0);
 
@@ -34,16 +41,24 @@ const ProjectCard = ({title, images, description, stack, liveUrl, gitHubUrl, you
       </div>
       
     )}
-    <Card.Body>
-      <Card.Title>{title}</Card.Title>
-      <Card.Text>{description}</Card.Text>      
-      <Card.Text className='text-muted' style={{fontSize:'0.9rem'}}>{stack}</Card.Text>      
+    <Card.Body className='px-0'>
+      {title && (
+        <Card.Title>{title}</Card.Title>
+      )}
+      {description && (
+        <Card.Text>{description}</Card.Text>      
+      )}
+      {stack && (
+        <Card.Text className='text-muted' style={{fontSize:'0.9rem'}}>{stack.join(" \u2022 ")}</Card.Text>      
+      )}            
+      
     </Card.Body>
     <Card.Footer
       style={{
         backgroundColor:'transparent',
         borderTop:'none',
       }}
+      className='px-0 text-center'
     >
       {liveUrl && (
         <Button
@@ -72,7 +87,7 @@ const ProjectCard = ({title, images, description, stack, liveUrl, gitHubUrl, you
           <FaGithub className='me-2'/>
           GitHub
         </Button>
-      )}
+      )}      
       {youTubeUrl && (
         <Button
           variant='outline-danger'
@@ -81,7 +96,7 @@ const ProjectCard = ({title, images, description, stack, liveUrl, gitHubUrl, you
           rel='noopener noreferrer'
           className='me-1 mb-1'
           size='sm'
-          style={{width: '94px'}}
+          style={{width: '95px'}}
         >
           <FaYoutube className='me-2'/>
           YouTube
@@ -99,7 +114,13 @@ const ProjectCard = ({title, images, description, stack, liveUrl, gitHubUrl, you
   >
   <Modal.Body className='p-0'>
     <div className='ratio ratio-16x9 border-bottom'>      
-      <Carousel interval={null} defaultActiveIndex={startIndex} className='h-100'>
+      <Carousel 
+        interval={null}
+        defaultActiveIndex={startIndex} 
+        className='h-100'
+        controls={images?.length > 1}
+        indicators={images?.length > 1}
+      >
       {images?.map((img, i)=>(
         <Carousel.Item key={i}>
           <img
@@ -127,7 +148,7 @@ ProjectCard.propTypes = {
   title: PropTypes.string.isRequired,
   images: PropTypes.arrayOf(PropTypes.string),
   description: PropTypes.string.isRequired,
-  stack: PropTypes.string.isRequired,
+  stack: PropTypes.arrayOf(PropTypes.string).isRequired,
   liveUrl: PropTypes.string,
   gitHubUrl: PropTypes.string,
   youTubeUrl: PropTypes.string,
@@ -135,7 +156,7 @@ ProjectCard.propTypes = {
 
 ProjectCard.defaultProps = {
   images:[],
-  stack: '',
+  stack: [],
   liveUrl: null,
   gitHubUrl: null,
   youTubeUrl: null,

@@ -13,7 +13,9 @@ const allProjects = [
       
     ],    
     description: 'Template ASP.NET Core MVC with ASP.NET Identity (register/login), admin-only CRUD for Students, image upload.',
-    stack: 'ASP.NET Core MVC · EF Core · SQL Server · Bootstrap',
+    stack: [
+      'ASP.NET Core MVC', 'EF Core', 'SQL Server', 'Bootstrap',
+    ],
     gitHubUrl: 'https://github.com/Peter42306/StudentsAdmin'
   },  
 
@@ -30,7 +32,9 @@ const allProjects = [
       
     ],
     description: 'Template with authentication, role-based access (Admin/User), admin panel, image upload and  (IImageService), Repository Pattern, AutoMapper, basic CRUD.',
-    stack: 'ASP.NET Core MVC · Identity · EF Core · SQLite · AutoMapper · IRepository · IImageService · Bootstrap',
+    stack: [
+      'ASP.NET Core MVC', 'Identity', 'EF Core', 'SQLite', 'AutoMapper', 'IRepository', 'IImageService', 'Bootstrap',
+    ],    
     gitHubUrl: 'https://github.com/Peter42306/StudentsAdminEditors'
   },
   
@@ -47,7 +51,9 @@ const allProjects = [
       
     ],    
     description: 'Template with layered architecture (UI, BLL, DAL) with CRUD and seeded demo data.',
-    stack: 'ASP.NET Core MVC · EF Core · SQLite · Bootstrap · Layered Architecture',
+    stack: [
+      'ASP.NET Core MVC', 'EF Core', 'SQLite', 'Bootstrap', 'Layered Architecture',
+    ],
     gitHubUrl: 'https://github.com/Peter42306/SoccerPlayersTeamsLayered'
   },  
 
@@ -65,7 +71,9 @@ const allProjects = [
       `${process.env.PUBLIC_URL}/images/StudentsGroupsCollege-8.jpg`,
     ],    
     description: 'Template demonstrating ASP.NET Core Razor Pages with the Repository Pattern: interfaces, dependency injection, separate repositories for Student and Teacher, basic CRUD, and validation.',
-    stack: 'ASP.NET Core Razor Pages · EF Core · SQL Server · Repository Pattern · Bootstrap',
+    stack: [
+      'ASP.NET Core Razor Pages', 'EF Core', 'SQL Server', 'Repository Pattern', 'Bootstrap',
+    ],    
     gitHubUrl: 'https://github.com/Peter42306/RazorPages.Repository'
   },    
 
@@ -83,7 +91,9 @@ const allProjects = [
       `${process.env.PUBLIC_URL}/images/StudentsGroupsCollege-8.jpg`,
     ],    
     description: 'Template showing entities’ relations, one-to-many (College-Group, Group-Student) and many-to-many (Teacher-Subject) relation, basic CRUD, seeded demo data.',
-    stack: 'ASP.NET Core MVC · EF Core · SQLite · Bootstrap',
+    stack: [
+      'ASP.NET Core MVC', 'EF Core', 'SQLite', 'Bootstrap',
+    ],
     gitHubUrl: 'https://github.com/Peter42306/StudentsGroupsCollege'
   },  
   
@@ -98,7 +108,9 @@ const allProjects = [
       `${process.env.PUBLIC_URL}/images/SoccerPlayersTeamsSortingFilteringPagination-5.jpg`,
     ],    
     description: 'Template with teams and players sorting, filtering, and pagination, seeded demo data, basic CRUD.',
-    stack: 'ASP.NET Core MVC · EF Core · SQLite · Bootstrap',
+    stack: [
+      'ASP.NET Core MVC', 'EF Core', 'SQLite', 'Bootstrap',
+    ],    
     gitHubUrl: 'https://github.com/Peter42306/SoccerPlayersTeamsSortingFilteringPagination'
   },  
 
@@ -112,7 +124,9 @@ const allProjects = [
       `${process.env.PUBLIC_URL}/images/SoccerFiltration-4.jpg`,
     ],    
     description: 'Template for displaying teams and players with filtering by player and team fields, basic CRUD, seeded demo data.',
-    stack: 'ASP.NET Core MVC · EF Core · SQLite · Bootstrap',
+    stack: [
+      'ASP.NET Core MVC', 'EF Core', 'SQLite', 'Bootstrap',
+    ],
     gitHubUrl: 'https://github.com/Peter42306/SoccerFiltration'
   },  
 
@@ -130,7 +144,9 @@ const allProjects = [
       `${process.env.PUBLIC_URL}/images/SoccerPlayersTeamsSorting-8.jpg`,
     ],    
     description: 'Template for displaying teams and players with sorting options on player and team fields, basic CRUD, seeded demo data.',
-    stack: 'ASP.NET Core MVC · EF Core · SQLite · Bootstrap',
+    stack: [
+      'ASP.NET Core MVC', 'EF Core', 'SQLite', 'Bootstrap',
+    ],
     gitHubUrl: 'https://github.com/Peter42306/SoccerPlayersTeamsSorting'
   },    
 
@@ -144,7 +160,9 @@ const allProjects = [
       `${process.env.PUBLIC_URL}/images/SoccerPlayersTeamsPagination-4.jpg`,      
     ],    
     description: 'Template app for viewing teams and players with simple pagination, seeded demo data, basic CRUD',
-    stack: 'ASP.NET Core MVC · EF Core · SQLite · Bootstrap',
+    stack: [
+      'ASP.NET Core MVC', 'EF Core', 'SQLite', 'Bootstrap',
+    ],
     gitHubUrl: 'https://github.com/Peter42306/SoccerPlayersTeamsPagination'
   },  
 
@@ -156,7 +174,9 @@ const allProjects = [
       
     ],    
     description: 'Template demonstrating file upload and storage in ASP.NET Core MVC. Allows uploading images and displaying them from the server.',
-    stack: 'ASP.NET Core MVC · EF Core · SQL Server · Bootstrap',
+    stack: [
+      'ASP.NET Core MVC', 'EF Core', 'SQL Server', 'Bootstrap',
+    ],
     gitHubUrl: 'https://github.com/Peter42306/RazorPages.Repository'
   },  
 
@@ -171,6 +191,9 @@ const allProjects = [
     ],
     description: 'Template with a basic CRUD and PostgreSQL. Testing PostgreSQL in a web environment.',
     liveUrl: 'https://2-students-postgre.p.zalizko.site/Students',
+    stack: [
+      'ASP.NET Core MVC', 'EF Core', 'SQLite · Bootstrap',
+    ],
     gitHubUrl: 'https://github.com/Peter42306/StudentsPostgreSql'
   },  
 
@@ -186,7 +209,9 @@ const allProjects = [
     ],
     description: 'Template with a basic CRUD and SQLite database. Testing SQLite in a web environment.',
     liveUrl: 'https://1-students-sqlite.p.zalizko.site/Students',
-    stack: 'ASP.NET Core MVC · EF Core · SQLite · Bootstrap',
+    stack: [
+      'ASP.NET Core MVC', 'EF Core', 'SQLite · Bootstrap',
+    ],
     gitHubUrl: 'https://github.com/Peter42306/StudentsSqlite'
   },  
 
@@ -197,7 +222,9 @@ const allProjects = [
       `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-09-130823.jpg`,            
     ],    
     description: 'Template with a basic CRUD and MS SQL Server database.',
-    stack: 'ASP.NET Core MVC · EF Core · SQL Server · Bootstrap',
+    stack: [
+      'ASP.NET Core MVC', 'EF Core', 'SQL Server', 'Bootstrap',
+    ],
     gitHubUrl: 'https://github.com/Peter42306/CarsCRUD'
   },  
 
@@ -212,7 +239,9 @@ const allProjects = [
       `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-09-133056.jpg`,
     ],    
     description: 'Template with a basic CRUD and MS SQL Server database.',    
-    stack: 'ASP.NET Core MVC · EF Core · SQL Server · Bootstrap',
+    stack: [
+      'ASP.NET Core MVC', 'EF Core', 'SQL Server', 'Bootstrap',
+    ],
     gitHubUrl: 'https://github.com/Peter42306/StudentMvcCrud'
   },  
 ];
@@ -236,11 +265,11 @@ const ProjectAspMvc = () => {
       const totalPages = Math.ceil(allProjects.length / itemsPerPage);
 
   return(
-    <section id='projectsAspMvc' className='mt-3'>
+    <section id='projectsAspMvc' className='pt-2'>
     <h4>ASP.NET Core MVC Templates</h4>
     <p>Reference templates for ASP.NET Core MVC.</p>       
 
-    <Form.Select
+    {/* <Form.Select
       onChange={handleChange}
       value={itemsPerPage}
       className='w-auto mb-3'
@@ -250,17 +279,25 @@ const ProjectAspMvc = () => {
       <option value={3}>Show 3 projects</option>
       <option value={6}>Show 6 projects</option>
       <option value={allProjects.length}>Show all projects</option>
-    </Form.Select>
+    </Form.Select> */}
 
     <Row>
-      {currentItems.map((project, idx) => (
-        <Col xs={12} md={4} className="d-flex" key={idx}>
+      {allProjects.map((project, idx) => (
+        <Col xs={12} md={6} xl={4} className="d-flex" key={project.title}>
           <ProjectCard {...project}/>
         </Col>
       ))}
     </Row>
 
-    {totalPages > 1 && (
+    {/* <Row>
+      {currentItems.map((project, idx) => (
+        <Col xs={12} md={4} className="d-flex" key={idx}>
+          <ProjectCard {...project}/>
+        </Col>
+      ))}
+    </Row> */}
+
+    {/* {totalPages > 1 && (
       <Pagination className='mt-2 justify-content-center' size='sm'>
         {[...Array(totalPages)].map((_,i) => (
           <Pagination.Item
@@ -272,7 +309,7 @@ const ProjectAspMvc = () => {
           </Pagination.Item>
         ))}
       </Pagination>
-    )}
+    )} */}
     
   </section>
   );

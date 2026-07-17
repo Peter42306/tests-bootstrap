@@ -56,7 +56,7 @@ const ContactMeComponent = () => {
   };
 
   return(
-    <section id='contact' className='mt-3'>
+    <section id='contact' className='pt-2'>
       <h4>Contact</h4>
       <p>Send me a message</p>
       <Form ref={formRef} onSubmit={sendEmail} name='form'>

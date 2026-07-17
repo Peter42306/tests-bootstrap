@@ -13,7 +13,9 @@ const allProjects = [
       `${process.env.PUBLIC_URL}/images/StudentsWebAPI-5.jpg`,
     ],
     description: 'Template Web API with basic CRUD operations for Student entity and Swagger UI for testing.',
-    stack: 'ASP.NET Core Web API · EF Core · SQLite · Swagger (OpenAPI)',
+    stack: [
+      'ASP.NET Core Web API · EF Core · SQLite · Swagger (OpenAPI)',
+    ],
     gitHubUrl: 'https://github.com/Peter42306/StudentsWebAPI'
   },  
   {
@@ -23,7 +25,9 @@ const allProjects = [
       
     ],
     description: 'Template Web API with basic CRUD operations for Cars entity and Swagger UI for testing.',
-    stack: 'ASP.NET Core Web API · EF Core · SQLite · Swagger (OpenAPI)',
+    stack: [
+      'ASP.NET Core Web API · EF Core · SQLite · Swagger (OpenAPI)',
+    ],
     gitHubUrl: 'https://github.com/Peter42306/Cars.CRUD.WebAPI'
   },  
 ];
@@ -48,11 +52,11 @@ const ProjectAspApi = () => {
           const totalPages = Math.ceil(allProjects.length / itemsPerPage);
 
   return(
-    <section id='projectsAspApi' className='mt-3'>
+    <section id='projectsAspApi' className='pt-2'>
     <h4>ASP.NET Core Web API Templates</h4>
     <p>Reference templates for ASP.NET Core Web API with Swagger integration for endpoint visualization and testing.</p>       
 
-    <Form.Select
+    {/* <Form.Select
       onChange={handleChange}
       value={itemsPerPage}
       className='w-auto mb-3'
@@ -62,17 +66,25 @@ const ProjectAspApi = () => {
       <option value={3}>Show 3 projects</option>
       <option value={6}>Show 6 projects</option>
       <option value={allProjects.length}>Show all projects</option>
-    </Form.Select>
+    </Form.Select> */}
 
     <Row>
-      {currentItems.map((project, idx) => (
-        <Col xs={12} md={4} className="d-flex" key={idx}>
+      {allProjects.map((project, idx) => (
+        <Col xs={12} md={6}xl={4} className="d-flex" key={project.title}>
           <ProjectCard {...project}/>
         </Col>
       ))}
     </Row>
 
-    {totalPages > 1 && (
+    {/* <Row>
+      {currentItems.map((project, idx) => (
+        <Col xs={12} md={4} className="d-flex" key={idx}>
+          <ProjectCard {...project}/>
+        </Col>
+      ))}
+    </Row> */}
+
+    {/* {totalPages > 1 && (
       <Pagination className='mt-2 justify-content-center' size='sm'>
         {[...Array(totalPages)].map((_,i) => (
           <Pagination.Item
@@ -84,7 +96,7 @@ const ProjectAspApi = () => {
           </Pagination.Item>
         ))}
       </Pagination>
-    )}
+    )} */}
     
   </section>
   );

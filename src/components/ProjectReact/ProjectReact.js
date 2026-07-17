@@ -122,11 +122,11 @@ const ProjectReact = () => {
 
   return (  
 
-  <section id='projectsReact' className='mt-3'>
+  <section id='projectsReact' className='pt-2'>
     <h4>React Templates</h4>
     <p>Reference frontend templates built with React, without backend.</p>       
 
-    <Form.Select
+    {/* <Form.Select
       onChange={handleChange}
       value={itemsPerPage}
       className='w-auto mb-3'
@@ -136,17 +136,24 @@ const ProjectReact = () => {
       <option value={3}>Show 3 projects</option>
       <option value={6}>Show 6 projects</option>
       <option value={allProjects.length}>Show all projects</option>
-    </Form.Select>
+    </Form.Select> */}
 
     <Row>
+      {allProjects.map((project, idx) => (
+        <Col xs={12} md={6} xl={4} className="d-flex" key={project.title}>
+          <ProjectCard {...project}/>
+        </Col>
+      ))}
+    </Row>
+    {/* <Row>
       {currentItems.map((project, idx) => (
         <Col xs={12} md={4} className="d-flex" key={idx}>
           <ProjectCard {...project}/>
         </Col>
       ))}
-    </Row>
+    </Row> */}
 
-    {totalPages > 1 && (
+    {/* {totalPages > 1 && (
       <Pagination className='mt-2 justify-content-center' size='sm'>
         {[...Array(totalPages)].map((_,i) => (
           <Pagination.Item
@@ -158,7 +165,7 @@ const ProjectReact = () => {
           </Pagination.Item>
         ))}
       </Pagination>
-    )}
+    )} */}
     
   </section>
 );

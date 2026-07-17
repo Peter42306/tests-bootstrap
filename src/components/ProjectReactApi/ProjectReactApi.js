@@ -12,7 +12,9 @@ const allProjects = [
       `${process.env.PUBLIC_URL}/images/CommentsSPA_Screenshot_2026-01-21_120254_3.jpg`,      
     ],
     description: 'Full-stack comments with nested replies, file uploads, and CAPTCHA protection (ASP.NET Core, React, PostgreSQL, Docker).',
-    stack: 'ASP.NET Core Web API · EF Core · PostgreSQL · React · Docker · Bootstrap · Hetzner VPS',
+    stack: [
+      'ASP.NET Core Web API · EF Core · PostgreSQL · React · Docker · Bootstrap · Hetzner VPS',
+    ],
     liveUrl: 'https://comments-spa.p.zalizko.site/',
     gitHubUrl: 'https://github.com/Peter42306/CommentsSPA'
   },  
@@ -24,7 +26,9 @@ const allProjects = [
       `${process.env.PUBLIC_URL}/images/students-fullsttack_Screenshot_2026-01-20_110945-3.jpg`,      
     ],
     description: 'Full-stack CRUD template with file uploads: ASP.NET Core Web API + PostgreSQL (Docker) + React (Vite).',
-    stack: 'ASP.NET Core Web API · EF Core · PostgreSQL · React · Docker · Bootstrap · Hetzner VPS',
+    stack: ['ASP.NET Core Web API · EF Core · PostgreSQL · React · Docker · Bootstrap · Hetzner VPS',
+
+    ],
     liveUrl: 'https://students.p.zalizko.site/students',
     gitHubUrl: 'https://github.com/Peter42306/students-fullstack'
   },  
@@ -49,11 +53,11 @@ const ProjectReactApi = () => {
     const totalPages = Math.ceil(allProjects.length / itemsPerPage);
 
   return(
-    <section id='projectsReactApi' className='mt-3'>
+    <section id='projectsReactApi' className='pt-2'>
     <h4>Full-Stack Templates</h4>
     <p>Dockerized full-stack templates: ASP.NET Core Web API + React + PostgreSQL.</p>       
 
-    <Form.Select
+    {/* <Form.Select
       onChange={handleChange}
       value={itemsPerPage}
       className='w-auto mb-3'
@@ -62,17 +66,24 @@ const ProjectReactApi = () => {
       <option value={3}>Show 3 projects</option>
       <option value={6}>Show 6 projects</option>
       <option value={allProjects.length}>Show all projects</option>
-    </Form.Select>
+    </Form.Select> */}
 
     <Row>
+      {allProjects.map((project, idx) => (
+        <Col xs={12} md={6} xl={4} className="d-flex" key={project.title}>
+          <ProjectCard {...project}/>
+        </Col>
+      ))}
+    </Row>
+    {/* <Row>
       {currentItems.map((project, idx) => (
         <Col xs={12} md={4} className="d-flex" key={idx}>
           <ProjectCard {...project}/>
         </Col>
       ))}
-    </Row>
+    </Row> */}
 
-    {totalPages > 1 && (
+    {/* {totalPages > 1 && (
       <Pagination className='mt-2 justify-content-center'>
         {[...Array(totalPages)].map((_,i) => (
           <Pagination.Item
@@ -84,7 +95,7 @@ const ProjectReactApi = () => {
           </Pagination.Item>
         ))}
       </Pagination>
-    )}
+    )} */}
     
   </section>
   );

@@ -19,6 +19,8 @@ import ProjectAspMvc from './components/ProjectAspMvc/ProjectAspMvc';
 import ProjectAspRazorPages from './components/ProjectAspRazorPages/ProjectAspRazorPages';
 import ProjectAspApi from './components/ProjectAspApi/ProjectAspApi';
 import ProjectHtml from './components/ProjectHtml/ProjectHtml';
+import MainProjectCard from './components/MainProjectCard/MainProjectCard';
+import MainProjectsSection from './components/MainProjectsSection';
 
 function App() {
   const [isDark, setIsDark] = useState(false);
@@ -39,43 +41,45 @@ function App() {
 
       <Container>
           <Row>
-            <Col xs={12} md={6} lg={4}>
+            <Col xs={12} md={6} xl={4}>
               <DetailsComponent />
               <SkillsComponent />
               <LenguagesComponent />
             </Col>
-            <Col xs={12} md={6} lg={8}>
+            <Col xs={12} md={6} xl={8}>
               <AboutComponent />
               <ExperienceComponent />
               <EducationComponent />
             </Col>
           </Row>
 
+          {/* <hr/> */}
+
+          
+          {/* <MainProjectsSection/> */}
+          
+
+          {/* <hr /> */}
+
+          {/* <Row>
+            <MainProjectCard/>
+          </Row> */}
+          
           <hr />
 
-          <Row>
-
-          </Row>
-
-          <hr />
-
-          {/* Real-World Projects, ignore component name */}
-          <Row>
-            <ProjectAspRazorPages />
-          </Row>
+          {/* Main projects, ignore component name */}          
+          <ProjectAspRazorPages />                    
 
           <hr />
 
-          {/* Full-stack Templates, Docker */}
-          <Row>
-              <ProjectReactApi />
-          </Row>            
+          <ProjectHtml/>
 
-          <hr />
+          <hr/>
+
 
 
           <Row id='otherTemplates'>
-            <div className='d-flex flex-column flex-md-row align-items-center justify-content-between mt-3 mb-2'>
+            <div className='d-flex flex-column flex-md-row align-items-center justify-content-between mt-2 mb-2'>
               <div>
                 <h4>Other Templates for Reference</h4>
                 <p className='mb-2 mb-md-0'>
@@ -101,46 +105,37 @@ function App() {
           <hr />
 
           <Collapse in={showTemplates}>
-          <div id='template-demo-details' className='mt-3'>                     
-            
-            
+            <div id='template-demo-details' className='mt-3'>                                                 
+              
 
-            
+              {/* Full-stack Templates, Docker */}          
+              <ProjectReactApi />          
+              
+              
 
-            <Row>
-              <ProjectAspMvc />
-            </Row>         
+              <hr/>
+              
+              <ProjectAspMvc />              
 
-            <hr />
+              <hr />
+              
+              <ProjectAspApi />              
 
-            <Row>
-              <ProjectAspApi />
-            </Row>         
+              <hr/>
 
-            <hr/>
-
-            <Row>
+              
               <ProjectReact />
-            </Row>            
+              
 
-            <hr />
+              <hr />              
 
-            <Row>
-              <ProjectHtml/>
-            </Row>
-
-            <hr/>
-
-          </div>
-            
-          </Collapse>
-
+            </div>            
+          </Collapse>                     
           
-            <Row>
-              <ContactMeComponent />
-            </Row>          
+          <ContactMeComponent />
+            
       </Container> 
-
+      
       <BackToTopButton/>      
 
       <FooterComponent />

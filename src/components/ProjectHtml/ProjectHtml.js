@@ -11,7 +11,9 @@ const allProjects = [
     ],
     description: 'Personal CV site, based on a W3Schools template. Responsive design, deployed.',
     liveUrl: 'https://p.zalizko.site/resume/developer/',
-    stack: 'HTML · CSS · Bootstrap · Hetzner VPS',
+    stack: [
+      'HTML', 'CSS', 'Bootstrap', 'Hetzner VPS',
+    ],
     gitHubUrl: 'https://github.com/Peter42306/my-cv-dev-html'
   },  
 ];
@@ -36,13 +38,12 @@ const ProjectHtml = () => {
 
     return(
 
-    <section id='projectsHtml' className='mt-3'>
+    <section id='projectsHtml' className='pt-2'>
     <h4>HTML Websites</h4>
-    <p>Static websites built with HTML, CSS, and Bootstrap.</p>      
-        
+    <p>Static websites built with HTML, CSS, and Bootstrap.</p>             
              
 
-    <Form.Select
+    {/* <Form.Select
       onChange={handleChange}
       value={itemsPerPage}
       className='w-auto mb-3'
@@ -52,17 +53,24 @@ const ProjectHtml = () => {
       <option value={3}>Show 3 projects</option>
       <option value={6}>Show 6 projects</option>
       <option value={allProjects.length}>Show all projects</option>
-    </Form.Select>
+    </Form.Select> */}
 
     <Row>
+      {allProjects.map((project, idx) => (
+        <Col xs={12} md={6} xl={4} className="d-flex" key={project.title}>
+          <ProjectCard {...project}/>
+        </Col>
+      ))}
+    </Row>
+    {/* <Row>
       {currentItems.map((project, idx) => (
         <Col xs={12} md={4} className="d-flex" key={idx}>
           <ProjectCard {...project}/>
         </Col>
       ))}
-    </Row>
+    </Row> */}
 
-    {totalPages > 1 && (
+    {/* {totalPages > 1 && (
       <Pagination className='mt-2 justify-content-center' size="sm">
         {[...Array(totalPages)].map((_,i) => (
           <Pagination.Item
@@ -74,7 +82,7 @@ const ProjectHtml = () => {
           </Pagination.Item>
         ))}
       </Pagination>
-    )}
+    )} */}
     
   </section>        
     );
