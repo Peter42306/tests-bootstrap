@@ -6,8 +6,11 @@ const allProjects = [
   {
     title: 'PhotoMap',
     images:[
-      `${process.env.PUBLIC_URL}/images/Thumbnail_Draught_Survey_Web_App_20250316_111106_resized.jpg`,
-      `${process.env.PUBLIC_URL}/images/Screenshot_2025-11-05_213826.jpg`,      
+      `${process.env.PUBLIC_URL}/images/PhotoMap_1_Screenshot 2026-07-18 104616.jpg`,
+      `${process.env.PUBLIC_URL}/images/PhotoMap_2_Screenshot 2026-07-18 104725.jpg`,      
+      `${process.env.PUBLIC_URL}/images/PhotoMap_3_Screenshot 2026-07-18 110755.jpg`,      
+      `${process.env.PUBLIC_URL}/images/PhotoMap_4_Screenshot 2026-07-18 115317.jpg`,      
+      `${process.env.PUBLIC_URL}/images/PhotoMap_5_Screenshot 2026-07-18 115434.jpg`,      
     ],
     description: 'Full stack web application for storing, organizing and exploring photo collections. Designed to create collections, upload photos, add notes, view them on an interactive map, generate archives, and securely share collections with others.',
     stack:[
