@@ -23,8 +23,19 @@ const ExperienceComponent = () => {
             <FaCalendarAlt className="me-3 text-success"/>
             <span className="text-success">2024 - Present</span>
           </p>
+
+          <p>Designed and developed full-stack web applications using ASP.NET Core (MVC, Web API), React, and Entity Framework Core with PostgreSQL, MS SQL Server, and SQLite.</p>          
+          <p>Built React single-page applications (SPAs).</p>          
+          <p>Designed and implemented REST APIs using ASP.NET Core Web API.</p>
+          <p>Applied layered architecture, dependency injection, and separation of concerns in application design.</p>
+          <p>Implemented authentication and authorization using ASP.NET Core Identity, JWT, and Google OAuth.</p>
+          <p>Developed background services for asynchronous image processing, file cleanup, and lazy deletion of files stored in S3-compatible object storage.</p>
+          <p>Integrated S3-compatible object storage using pre-signed upload and download URLs.</p>
+          <p>Integrated external services and libraries including SendGrid, MapTiler, QuestPDF, ClosedXML, and ImageSharp.</p>
+          <p>Designed databases and implemented data access with Entity Framework Core, LINQ, and SQL.</p>
+          <p>Deployed and maintained applications on Ubuntu Linux using Nginx, systemd, SSH, and Docker.</p>
           
-          <p>
+          {/* <p>
             Built and maintained full-stack web applications with a backend focus, using ASP.NET Core (MVC, Web API), Entity Framework Core (Code-First, Migrations, LINQ), relational databases (PostgreSQL, MS SQL Server, SQLite), and React for SPA scenarios.
           </p>          
 
@@ -54,7 +65,7 @@ const ExperienceComponent = () => {
 
           <p>
             Background in software fundamentals, including OOP, UML, basic C++, functional programming fundamentals, and desktop development with WinForms and WPF.
-          </p>                
+          </p>                 */}
                       
         </div>        
 

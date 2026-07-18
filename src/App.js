@@ -51,19 +51,7 @@ function App() {
               <EducationComponent />
               <LenguagesComponent />
             </Col>
-          </Row>
-
-          {/* <hr/> */}
-
-          
-          {/* <MainProjectsSection/> */}
-          
-
-          {/* <hr /> */}
-
-          {/* <Row>
-            <MainProjectCard/>
-          </Row> */}
+          </Row>          
           
           <hr />
 
@@ -76,14 +64,12 @@ function App() {
 
           <hr/>
 
-
-
           <Row id='otherTemplates'>
             <div className='d-flex flex-column flex-md-row align-items-center justify-content-between mt-2 mb-2'>
               <div>
-                <h4>Other Templates for Reference</h4>
+                <h4>Templates</h4>
                 <p className='mb-2 mb-md-0'>
-                  Reference templates for ASP.NET Core MVC, ASP.NET Core Web API, React without backend, and static HTML.
+                  Reference templates for full-stack applications, ASP.NET Core MVC, ASP.NET Core Web API, React SPAs.
                 </p>
               </div>
               

@@ -16,11 +16,11 @@ const SkillsComponent = () => (
             <div>
 
               <div className='mb-3'>
-                <div><strong className="text-body-secondary">Backend:</strong></div>              
+                <div><strong className="text-body-secondary">Backend:</strong></div>
                 <div>C# &bull; ASP.NET Core (Web API, MVC)</div>
                 <div>EF Core (Code First, Migrations, LINQ)</div>
                 <div>ASP.NET Identity &bull; JWT Authentication &bull; Google OAuth</div>
-                <div>REST API Design &bull; Dependency Injection &bull; Background Services &bull; SOLID Principles</div>              
+                <div>REST API Design &bull; Layered Architecture &bull; Dependency Injection &bull; Background Services &bull; SOLID Principles</div>
               </div>              
 
               <div className='mb-3'>

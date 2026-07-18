@@ -4,6 +4,23 @@ import { Col, Form, Pagination, Row } from "react-bootstrap";
 import ProjectCard from "../ProjectCard/ProjectCard";
 
 const allProjects = [
+  {
+    title: 'Portfolio Website',
+    images:[      
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-115406.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-115419.jpg`,            
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-115437.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-115451.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-115502.jpg`,
+            
+    ],
+    description: 'This website itself - a personal portfolio built as a single-page React application. Includes smooth section navigation, light/dark theme toggle, and a contact form sending messages through an ASP.NET Core API.',
+    stack: [
+      'React SPA', 'React-Bootstrap', 'Contact Form via ASP.NET Core API (SendGrid email service)', 'Hetzner VPS',
+    ],
+    liveUrl: 'https://p.zalizko.site/react-projects/portfolio/',
+    gitHubUrl: 'https://github.com/Peter42306/tests-bootstrap'    
+  },  
     {
     title: 'Personal CV',
     images:[      
@@ -39,8 +56,8 @@ const ProjectHtml = () => {
     return(
 
     <section id='projectsHtml' className='pt-2'>
-    <h4>HTML Websites</h4>
-    <p>Static websites built with HTML, CSS, and Bootstrap.</p>             
+    <h4>Static Websites</h4>
+    <p>Responsive websites built with HTML, CSS, Bootstrap, W3.CSS, and React.</p>             
              
 
     {/* <Form.Select

@@ -6,6 +6,32 @@ const allProjects = [
   
   // Template StudentsAdmin
   {
+    title: 'Photo Lab Web App',
+    images:[
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-03 212803-thumbnail.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-125834.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-125854.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-125931.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-130048.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-130129.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-130215.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-130325.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-130345.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-130422.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-130445.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-130559.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-130625.jpg`,
+      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-130700.jpg`,
+      
+    ],
+    description: 'Application for organizing and processing  photo sets. Extracts geo data, displays photos on an interactive map, builds routes based on timestamps, calculates distances between points, and generates PDF reports with customizable title and description.',
+    stack: [
+      'ASP.NET Core MVC', 'SixLabors.ImageSharp', 'MetadataExtractor', 'Bootstrap',
+    ],    
+    gitHubUrl: 'https://github.com/Peter42306/PhotoLabWebApp',
+    youTubeUrl: 'https://youtu.be/kZUVSQp2xVA'
+  },  
+  {
     title: 'Students & Admin, Auth, Image Upload, CRUD',
     images:[
       `${process.env.PUBLIC_URL}/images/StudentsAdmin-1.jpg`,

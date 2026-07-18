@@ -87,50 +87,8 @@ const allProjects = [
     liveUrl: 'https://trucks.p.zalizko.site/',
     gitHubUrl: 'https://github.com/Peter42306/TrucksWeighingWebApp',
     youTubeUrl: 'https://youtu.be/4bdfnxBKocM'
-  },  
-  {
-    title: 'Photo Lab Web App',
-    images:[
-      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-03 212803-thumbnail.jpg`,
-      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-125834.jpg`,
-      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-125854.jpg`,
-      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-125931.jpg`,
-      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-130048.jpg`,
-      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-130129.jpg`,
-      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-130215.jpg`,
-      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-130325.jpg`,
-      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-130345.jpg`,
-      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-130422.jpg`,
-      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-130445.jpg`,
-      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-130559.jpg`,
-      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-130625.jpg`,
-      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-130700.jpg`,
-      
-    ],
-    description: 'Application for organizing and processing  photo sets. Extracts geo data, displays photos on an interactive map, builds routes based on timestamps, calculates distances between points, and generates PDF reports with customizable title and description.',
-    stack: [
-      'ASP.NET Core MVC', 'SixLabors.ImageSharp', 'MetadataExtractor', 'Bootstrap',
-    ],    
-    gitHubUrl: 'https://github.com/Peter42306/PhotoLabWebApp',
-    youTubeUrl: 'https://youtu.be/kZUVSQp2xVA'
-  },  
-  {
-    title: 'Portfolio Website',
-    images:[      
-      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-115406.jpg`,
-      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-115419.jpg`,            
-      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-115437.jpg`,
-      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-115451.jpg`,
-      `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-115502.jpg`,
-            
-    ],
-    description: 'This website itself - a personal portfolio built as a single-page React application. Includes smooth section navigation, light/dark theme toggle, and a contact form sending messages through an ASP.NET Core API.',
-    stack: [
-      'React SPA', 'React-Bootstrap', 'Contact Form via ASP.NET Core API (SendGrid email service)', 'Hetzner VPS',
-    ],
-    liveUrl: 'https://p.zalizko.site/react-projects/portfolio/',
-    gitHubUrl: 'https://github.com/Peter42306/tests-bootstrap'    
-  },  
+  },    
+  
 ];
 
 const ProjectAspRazorPages = () => {
