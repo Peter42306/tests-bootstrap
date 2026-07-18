@@ -8,49 +8,67 @@ import { FaYoutube } from 'react-icons/fa';
 const ContactMeComponent = () => {
   const formRef = useRef();
   const [sending, setSending] = useState(false);
+  const [message, setMessage] = useState('');
 
   const sendEmail = async (e) => {
-    e.preventDefault();
-
-    //console.log("API URL:", process.env.REACT_APP_API_URL);
+    e.preventDefault();    
 
     const formData = new FormData(formRef.current);
 
     const payload = {
-      name: formData.get('name'),
-      email: formData.get('email'),
+      appKey: "developer-portfolio",
+      senderName: formData.get('name'),
+      senderEmail: formData.get('email'),
       subject: formData.get('title'),
-      message: formData.get('message')
+      body: formData.get('message')
     };
 
     try{
-
       setSending(true);
 
       const apiUrl = process.env.REACT_APP_API_URL;
+
       if(!apiUrl){
         throw new Error('REACT_APP_API_URL is not defined');
       };
 
       const response = await fetch(`${apiUrl}/api/contact`,{
         method:"POST",
-        headers:{"Content-Type": "application/json"},
+        headers: {
+          "Content-Type": "application/json"
+        },
         body:JSON.stringify(payload)
       });
 
-      if(!response.ok){
-        const errorText = await response.text().catch(() => '');
-        console.error("FAILED:", response.status, errorText);
-        alert(`Failed to send message.\nStatus: ${response.status}\n${errorText || ''}`);
-        return;
+      const text = await response.text();
+      let result = null;
+
+      try {
+        result = text ? JSON.parse(text) : null;
+      } catch {
+        result = text;
       }
 
-      alert("Message sent successfully!");
-      e.target.reset();
-    } catch(error){
+      if(!response.ok){
+        const errorMessage = 
+          result?.message || 
+          result?.error || 
+          result?.title || 
+          (typeof result === 'string' ? result : '') || 
+          `HTTP ${response.status}`;
+
+        throw new Error(errorMessage);        
+      }
+
+      alert(result?.message || 'Message sent successfully.');
+
+      formRef.current.reset();
+      setMessage('');
+    } catch(error) {
       console.error(error);
-      alert("Something went wrong, try again later.");
-    } finally{
+
+      alert("Something went wrong, try again later.");      
+    } finally {      
       setSending(false);
     }
   };
@@ -66,8 +84,9 @@ const ContactMeComponent = () => {
             name='name' 
             placeholder='Name' 
             minLength={2}
-            maxLength={25}
+            maxLength={100}
             title='Enter a valid name'
+            disabled={sending}
             required/>
         </Form.Group>
         <Form.Group className='mb-3'>
@@ -75,8 +94,11 @@ const ContactMeComponent = () => {
             type='email' 
             name='email' 
             placeholder='Email' 
+            autoComplete='email'
+            maxLength={200}            
             //pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
             title='Enter a valid email address'
+            disabled={sending}
             required/>
         </Form.Group>
         <Form.Group className='mb-3'>
@@ -85,8 +107,9 @@ const ContactMeComponent = () => {
             name='title' 
             placeholder='Subject' 
             minLength={2}
-            maxLength={50}
+            maxLength={200}
             title='Enter a valid Subject'
+            disabled={sending}
             required/>
         </Form.Group>
         <Form.Group className='mb-3'>
@@ -95,16 +118,25 @@ const ContactMeComponent = () => {
             name='message' 
             rows={3} 
             placeholder='Message' 
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
             minLength={2}
-            maxLength={500}
+            maxLength={5000}
             title='Enter a valid message text'
+            disabled={sending}
             required/>
+          <Form.Text className='d-block text-end'>
+            {message.length} / 5000
+          </Form.Text>            
         </Form.Group>
+        
+
         <Button 
           variant='outline-success' 
           className='mb-3' 
           type='submit'          
           size='sm'
+          disabled={sending}
         >
           <FaPaperPlane className='me-2'/>
           Send Message
@@ -124,9 +156,5 @@ const ContactMeComponent = () => {
   );
 
 }; 
-
-ContactMeComponent.propTypes = {};
-
-ContactMeComponent.defaultProps = {};
 
 export default ContactMeComponent;
