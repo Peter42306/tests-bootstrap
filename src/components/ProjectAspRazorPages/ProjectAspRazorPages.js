@@ -28,8 +28,7 @@ const allProjects = [
     description: 'REST API for integration of Contact Forms and Feedback Forms to web applications and static websites. Messages from Contact Forms and Feedback Forms are stored in PostgreSQL and email notifications are delivered using SendGrid.',
     stack: [
       'ASP.NET Core Web API', 'EF Core', 'PostgreSQL', 'FluentValidation', 'SendGrid', 'Hetzner VPS',
-    ],    
-    liveUrl: 'https://photo-map.zalizko.site/',
+    ],        
     gitHubUrl: 'https://github.com/Peter42306/photos-storage-map',        
   },  
   {

@@ -15,41 +15,35 @@ const SkillsComponent = () => (
 
             <div>
 
-              <p>
-              <strong className="text-body-secondary">Backend:</strong><br/>
-              C#, ASP.NET Core (MVC, Web API)<br/>
-              ASP.NET Identity<br/>
-              Entity Framework Core (Code First, Migrations, LINQ)<br/>
-              Dependency Injection, SOLID Principles, Design Patterns
-              </p>              
-              <p>
-              <strong className="text-body-secondary">Databases:</strong><br/>
-              PostgreSQL, SQLite, MS SQL Server<br/>              
-              Tools: pgAdmin, SSMS, DB Browser 
-              </p>              
-              <p>
-              <strong className="text-body-secondary">Frontend:</strong><br/>
-              React, JavaScript, HTML, CSS, Bootstrap
-              </p>              
-              
-              <p>
-              <strong className="text-body-secondary">Deployment:</strong><br/>
-              Linux (Ubuntu Server)<br/>
-              Docker, Docker Compose (multi-container applications)<br/>
-              Nginx, systemd, SSH, scp<br/>
-              VPS hosting (Hetzner) 
-              </p>              
-              <p>
-              <strong className="text-body-secondary">Tools:</strong><br/>
-              Visual Studio, Visual Studio Code<br/>
-              Git, GitHub<br/>
-              SendGrid (email service)<br/>
-              QuestPDF (PDF export)<br/>
-              ClosedXML (Excel export)<br/>
-              ImageSharp (image processing)<br/>
-              MetadataExtractor<br/>
-              AutoMapper
-              </p>
+              <div className='mb-3'>
+                <div><strong className="text-body-secondary">Backend:</strong></div>              
+                <div>C# &bull; ASP.NET Core (Web API, MVC)</div>
+                <div>EF Core (Code First, Migrations, LINQ)</div>
+                <div>ASP.NET Identity &bull; JWT Authentication &bull; Google OAuth</div>
+                <div>REST API Design &bull; Dependency Injection &bull; Background Services &bull; SOLID Principles</div>              
+              </div>              
+
+              <div className='mb-3'>
+                <div><strong className="text-body-secondary">Databases:</strong></div>
+                <div>PostgreSQL &bull; SQLite &bull; MS SQL Server</div>
+              </div>              
+
+              <div className='mb-3'>
+                <div><strong className="text-body-secondary">Frontend:</strong></div>
+                <div>React &bull; JavaScript &bull; HTML &bull; CSS &bull; Bootstrap &bull; W3.CSS</div>
+              </div>
+
+              <div className='mb-3'>
+                <div><strong className="text-body-secondary">Deployment:</strong></div>
+                <div>Linux (Ubuntu Server) &bull; Docker &bull; Docker Compose &bull; Nginx &bull; systemd &bull; SSH &bull; Cloud VPS &bull; Object Storage (S3 API)</div>
+              </div>              
+
+              <div>
+                <div><strong className="text-body-secondary">Tools & Libraries:</strong></div>
+                <div>Visual Studio &bull; Visual Studio Code &bull; Git &bull; GitHub</div>
+                <div>FluentValidation &bull; SendGrid &bull; QuestPDF &bull; ClosedXML &bull; ImageSharp &bull; MetadataExtractor &bull; AutoMapper &bull; MapTiler</div>
+              </div>              
+
             </div>
 
             {/*Download CV button*/}

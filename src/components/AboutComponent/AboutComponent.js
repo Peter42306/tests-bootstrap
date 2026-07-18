@@ -14,16 +14,25 @@ const AboutComponent = () => (
 
             <div>
               <p>
-                .NET Developer with experience building full-stack web applications using ASP.NET Core, EF Core, PostgreSQL, and React.
+                .NET Developer focused on building production-ready full-stack web applications using ASP.NET Core, React and PostgreSQL.
               </p>              
+              <p>
+                Experienced in designing REST APIs, deploying applications on Linux servers and integrating cloud storage.
+              </p>
+              <p>
+                Based in Constanta, Romania.
+              </p>
 
-              <p>
+              {/* <p>
+                .NET Developer with experience building full-stack web applications using ASP.NET Core, EF Core, PostgreSQL, and React.
+              </p>               */}
+              {/* <p>
                 Experience deploying and maintaining applications on Linux servers.
-              </p>                            
+              </p>                             */}
               
-              <p>
+              {/* <p>
                 Based in Constanta, Romania. Open to relocation and remote work.
-              </p>                            
+              </p>                             */}
                             
             </div>
           </Card.Body>

@@ -43,13 +43,13 @@ function App() {
           <Row>
             <Col xs={12} md={6} xl={4}>
               <DetailsComponent />
-              <SkillsComponent />
-              <LenguagesComponent />
-            </Col>
-            <Col xs={12} md={6} xl={8}>
               <AboutComponent />
+              <SkillsComponent />              
+            </Col>
+            <Col xs={12} md={6} xl={8}>              
               <ExperienceComponent />
               <EducationComponent />
+              <LenguagesComponent />
             </Col>
           </Row>
 
