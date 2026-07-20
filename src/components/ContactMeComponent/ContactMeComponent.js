@@ -149,7 +149,7 @@ const ContactMeComponent = () => {
           <a href='https://www.linkedin.com/in/petr-zalizko/' target='_blank' rel='noopener noreferrer'><FaLinkedin size={30} className='text-primary'/></a>
           <a href='https://github.com/Peter42306' target='_blank' rel='noopener noreferrer'><FaGithub size={30} className='text-secondary'/></a>          
           <a href='https://t.me/Peter42306' target='_blank' rel='noopener noreferrer'><FaTelegram size={30} style={{ color: '#0088cc' }}/></a>          
-          <a href='https://www.youtube.com/@petrzalizko1713' target='_blank' rel='noopener noreferrer'><FaYoutube size={30} style={{ color: '#FF0000' }}/></a>          
+          <a href='https://www.youtube.com/playlist?list=PLO3w_Jmi7YCpGQnorvV_eJu1DU3V9xrja' target='_blank' rel='noopener noreferrer'><FaYoutube size={30} style={{ color: '#FF0000' }}/></a>          
         </div>
       </div>    
     </section>

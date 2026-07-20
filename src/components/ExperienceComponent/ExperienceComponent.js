@@ -24,48 +24,18 @@ const ExperienceComponent = () => {
             <span className="text-success">2024 - Present</span>
           </p>
 
-          <p>Designed and developed full-stack web applications using ASP.NET Core (MVC, Web API), React, and Entity Framework Core with PostgreSQL, MS SQL Server, and SQLite.</p>          
-          <p>Built React single-page applications (SPAs).</p>          
-          <p>Designed and implemented REST APIs using ASP.NET Core Web API.</p>
-          <p>Applied layered architecture, dependency injection, and separation of concerns in application design.</p>
-          <p>Implemented authentication and authorization using ASP.NET Core Identity, JWT, and Google OAuth.</p>
+          <p>Developed REST APIs using ASP.NET Core Web API.</p>
+          <p>Developed full-stack web applications using ASP.NET Core MVC, ASP.NET Core Web API and React.</p>
+          <p>Worked with Entity Framework Core, LINQ, Code-First and Migrations.</p>
+          <p>Deployed and maintained applications on Ubuntu servers using Nginx, systemd and SSH.</p>
+          <p>Used PostgreSQL, SQL Server and SQLite.</p>
+          <p>Automated PostgreSQL backups to Hetzner Storage Box with 7-day backup retention.</p>
           <p>Developed background services for asynchronous image processing, file cleanup, and lazy deletion of files stored in S3-compatible object storage.</p>
-          <p>Integrated S3-compatible object storage using pre-signed upload and download URLs.</p>
-          <p>Integrated external services and libraries including SendGrid, MapTiler, QuestPDF, ClosedXML, and ImageSharp.</p>
-          <p>Designed databases and implemented data access with Entity Framework Core, LINQ, and SQL.</p>
-          <p>Deployed and maintained applications on Ubuntu Linux using Nginx, systemd, SSH, and Docker.</p>
-          
-          {/* <p>
-            Built and maintained full-stack web applications with a backend focus, using ASP.NET Core (MVC, Web API), Entity Framework Core (Code-First, Migrations, LINQ), relational databases (PostgreSQL, MS SQL Server, SQLite), and React for SPA scenarios.
-          </p>          
-
-          <p>
-            Deployed and maintained applications on Linux servers (Ubuntu, Nginx, systemd, SSH), on a cloud VPS (Hetzner) and in a self-hosted home-lab environment.
-          </p>
-
-          <p>
-            Used Docker and Docker Compose for multi-container setups (API, database, frontend).
-          </p>
-
-          <p>
-            Integrated external services and libraries, including email delivery (SendGrid), PDF generation (QuestPDF), Excel export (ClosedXML), and image processing (SixLabors.ImageSharp).
-          </p>          
-
-          <p>
-            Implemented authentication and role-based authorization with ASP.NET Core Identity.
-          </p>
-          
-          <p>
-            Applied clean architecture principles with layered services and repositories, separation of concerns, and AutoMapper for mapping between domain models and view models.
-          </p>
-
-          <p>
-            Used SQL and LINQ for data querying, filtering, and generation of operational reports.
-          </p>                  
-
-          <p>
-            Background in software fundamentals, including OOP, UML, basic C++, functional programming fundamentals, and desktop development with WinForms and WPF.
-          </p>                 */}
+          <p>Integrated S3-compatible object storage using pre-signed upload and download URLs.</p>          
+          <p>Integrated external services and libraries including SendGrid for email confirmation, contact forms and feedback forms, QuestPDF for PDF report generation, ClosedXML for Excel report generation, ImageSharp for image processing, and MapTiler for interactive maps.</p>
+          <p>Implemented authentication and authorization using ASP.NET Core Identity, JWT and Google OAuth.</p>
+          <p>Used Docker and Docker Compose.</p>
+          <p>Applied layered architecture, dependency injection, services, repositories.</p>
                       
         </div>        
 

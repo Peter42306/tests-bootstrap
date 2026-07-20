@@ -41,7 +41,7 @@ const SkillsComponent = () => (
               <div>
                 <div><strong className="text-body-secondary">Tools & Libraries:</strong></div>
                 <div>Visual Studio &bull; Visual Studio Code &bull; Git &bull; GitHub</div>
-                <div>FluentValidation &bull; SendGrid &bull; QuestPDF &bull; ClosedXML &bull; ImageSharp &bull; MetadataExtractor &bull; AutoMapper &bull; MapTiler</div>
+                <div>Swagger/OpenAPI &bull; FluentValidation &bull; SendGrid &bull; QuestPDF &bull; ClosedXML &bull; ImageSharp &bull; MetadataExtractor &bull; AutoMapper &bull; MapTiler</div>
               </div>              
 
             </div>

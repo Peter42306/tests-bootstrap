@@ -5,7 +5,7 @@ import ProjectCard from "../ProjectCard/ProjectCard";
 
 const allProjects = [
   {
-    title: 'Portfolio Website',
+    title: 'Developer Portfolio',
     images:[      
       `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-115406.jpg`,
       `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-06-115419.jpg`,            
@@ -21,15 +21,87 @@ const allProjects = [
     liveUrl: 'https://p.zalizko.site/react-projects/portfolio/',
     gitHubUrl: 'https://github.com/Peter42306/tests-bootstrap'    
   },  
-    {
-    title: 'Personal CV',
+  {
+    title: 'Survey Company',
+    images:[      
+      `${process.env.PUBLIC_URL}/images/Survey_Company_Screenshot_1.jpg`,
+      `${process.env.PUBLIC_URL}/images/Survey_Company_Screenshot_2.jpg`,
+      `${process.env.PUBLIC_URL}/images/Survey_Company_Screenshot_3.jpg`,
+      `${process.env.PUBLIC_URL}/images/Survey_Company_Screenshot_4.jpg`,
+      `${process.env.PUBLIC_URL}/images/Survey_Company_Screenshot_5.jpg`,
+      `${process.env.PUBLIC_URL}/images/Survey_Company_Screenshot_6.jpg`,
+      `${process.env.PUBLIC_URL}/images/Survey_Company_Screenshot_7.jpg`,
+      `${process.env.PUBLIC_URL}/images/Survey_Company_Screenshot_8.jpg`,
+    ],
+    description: 'Responsive company website prototype built from a W3Schools template and deployed on a Hetzner VPS.',
+    liveUrl: 'https://unis-inspections.zalizko.site/',
+    stack: [
+      'W3.CSS', 'HTML', 'CSS', 'Hetzner VPS',
+    ],
+    gitHubUrl: 'https://github.com/Peter42306/prototype-survey-company-a'
+  },  
+  {
+    title: 'Surveyor Profile',
+    images:[      
+      `${process.env.PUBLIC_URL}/images/Surveyor_Profiles_Screenshot_1.jpg`,
+      `${process.env.PUBLIC_URL}/images/Surveyor_Profiles_Screenshot_2.jpg`,
+      `${process.env.PUBLIC_URL}/images/Surveyor_Profiles_Screenshot_3.jpg`,
+      `${process.env.PUBLIC_URL}/images/Surveyor_Profiles_Screenshot_4.jpg`,
+      `${process.env.PUBLIC_URL}/images/Surveyor_Profiles_Screenshot_5.jpg`,
+      `${process.env.PUBLIC_URL}/images/Surveyor_Profiles_Screenshot_6.jpg`,
+      `${process.env.PUBLIC_URL}/images/Surveyor_Profiles_Screenshot_7.jpg`,
+    ],
+    description: 'Responsive personal profile website built from a W3Schools template and deployed on a Hetzner VPS.',
+    liveUrl: 'https://surveyor.p.zalizko.site/',
+    stack: [
+      'W3.CSS', 'HTML', 'CSS', 'Hetzner VPS',
+    ],
+    gitHubUrl: 'https://github.com/Peter42306/my-cv-surveyor-html'
+  },  
+  {
+    title: 'Cat Shelter',
+    images:[      
+      `${process.env.PUBLIC_URL}/images/Cat_Shelter_Screenshot_1.jpg`,
+      `${process.env.PUBLIC_URL}/images/Cat_Shelter_Screenshot_2.jpg`,
+      `${process.env.PUBLIC_URL}/images/Cat_Shelter_Screenshot_3.jpg`,
+      `${process.env.PUBLIC_URL}/images/Cat_Shelter_Screenshot_4.jpg`,
+      `${process.env.PUBLIC_URL}/images/Cat_Shelter_Screenshot_5.jpg`,
+      `${process.env.PUBLIC_URL}/images/Cat_Shelter_Screenshot_6.jpg`,
+      `${process.env.PUBLIC_URL}/images/Cat_Shelter_Screenshot_7.jpg`,
+      `${process.env.PUBLIC_URL}/images/Cat_Shelter_Screenshot_8.jpg`,
+      `${process.env.PUBLIC_URL}/images/Cat_Shelter_Screenshot_9.jpg`,
+    ],
+    description: 'Responsive shelter website prototype built from a W3Schools template and deployed on a Hetzner VPS.',
+    liveUrl: 'https://prototype.lu-koshka.zalizko.site/',
+    stack: [
+      'W3.CSS', 'HTML', 'CSS', 'Hetzner VPS',
+    ],
+    gitHubUrl: 'https://github.com/Peter42306/cats-lu-koshka'
+  },  
+  {
+    title: 'Auto Service',
+    images:[      
+      `${process.env.PUBLIC_URL}/images/AutoService_1_Screenshot 2026-07-19 100108.jpg`,
+      `${process.env.PUBLIC_URL}/images/AutoService_2_Screenshot 2026-07-19 100143.jpg`,
+      `${process.env.PUBLIC_URL}/images/AutoService_3_Screenshot 2026-07-19 100214.jpg`,
+      `${process.env.PUBLIC_URL}/images/AutosService_4_Screenshot 2026-07-19 100240.jpg`,
+    ],
+    description: 'Responsive auto service website prototype built from a W3Schools template and deployed on a Hetzner VPS.',
+    liveUrl: 'https://auto-service.p.zalizko.site/',
+    stack: [
+      'W3.CSS', 'HTML', 'CSS', 'Hetzner VPS',
+    ],
+    gitHubUrl: 'https://github.com/Peter42306/prototype-auto-service'
+  },  
+  {
+    title: 'CV',
     images:[      
       `${process.env.PUBLIC_URL}/images/Screenshot-2025-11-10-123046.jpg`,      
     ],
-    description: 'Personal CV site, based on a W3Schools template. Responsive design, deployed.',
+    description: 'Responsive CV website prototype built from a W3Schools template and deployed on a Hetzner VPS.',
     liveUrl: 'https://p.zalizko.site/resume/developer/',
     stack: [
-      'HTML', 'CSS', 'Bootstrap', 'Hetzner VPS',
+      'W3.CSS', 'HTML', 'CSS', 'Hetzner VPS',
     ],
     gitHubUrl: 'https://github.com/Peter42306/my-cv-dev-html'
   },  

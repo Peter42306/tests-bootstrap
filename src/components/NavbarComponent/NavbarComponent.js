@@ -17,8 +17,8 @@ const NavbarComponent = ({ isDark, toggleTheme }) => (
           <Link to="experience" smooth={true} duration={500} className='nav-link' role='button'>Experience</Link>                    
           <Link to="education" smooth={true} duration={500} className='nav-link' role='button'>Education</Link>
           <Link to="projectsAspRazor" smooth={true} duration={500} className='nav-link' role='button'>Projects</Link>
-          <Link to="projectsReactApi" smooth={true} duration={500} className='nav-link' role='button'>Full-Stack Templates</Link>
-          <Link to="otherTemplates" smooth={true} duration={500} className='nav-link' role='button'>Other Templates</Link>
+          <Link to="projectsHtml" smooth={true} duration={500} className='nav-link' role='button'>Static Websites</Link>
+          <Link to="otherTemplates" smooth={true} duration={500} className='nav-link' role='button'>Templates</Link>
 
           {/* <NavDropdown title="Templates" id="projects-dropdown">
             

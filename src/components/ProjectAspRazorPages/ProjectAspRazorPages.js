@@ -25,7 +25,7 @@ const allProjects = [
     images:[
       `${process.env.PUBLIC_URL}/images/ContactFormApi_Screenshot 2026-07-13_103855.jpg`,      
     ],
-    description: 'REST API for integration of Contact Forms and Feedback Forms to web applications and static websites. Messages from Contact Forms and Feedback Forms are stored in PostgreSQL and email notifications are delivered using SendGrid.',
+    description: 'REST API for Contact Forms and Feedback Forms in web applications and static websites. Messages from Contact Forms and Feedback Forms are stored in PostgreSQL and email notifications are delivered using SendGrid.',
     stack: [
       'ASP.NET Core Web API', 'EF Core', 'PostgreSQL', 'FluentValidation', 'SendGrid', 'Hetzner VPS',
     ],        
@@ -80,7 +80,7 @@ const allProjects = [
       `${process.env.PUBLIC_URL}/images/Screenshot_2025-10-14_222447.jpg`,      
       
     ],
-    description: 'Application for for weight control inspections with initial and final truck weighing, built for cargo surveyors and tally teams. Autocomplete of trucks plate number input, two control points, trucks status, convenient for teamwork, logo upload, export of PDF report.',
+    description: 'Application for weight control inspections with initial and final truck weighing, built for cargo surveyors and tally teams. Autocomplete of trucks plate number input, two control points, trucks status, convenient for teamwork, logo upload, export of PDF report.',
     stack: [
       'ASP.NET Core MVC', 'ASP.NET Identity', 'EF Core', 'PostgreSQL', 'QuestPDF', 'SendGrid', 'Bootstrap', 'Hetzner VPS',
     ],

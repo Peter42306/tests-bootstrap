@@ -15,7 +15,7 @@ const allProjects = [
       `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-26-210113.jpg`
 
     ],
-    description: 'A simple React project simulating a book store. Includes paginated product cards, a dynamic order form and a modal order confirmation.',
+    description: 'React template - book store. Includes paginated product cards, a dynamic order form and a modal order confirmation.',
     liveUrl: 'https://p.zalizko.site/react-projects/5-book-shop/',
     gitHubUrl: 'https://github.com/Peter42306/app-hw-2024-12-21-1325'
   },        
@@ -41,7 +41,7 @@ const allProjects = [
       `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-26-152459.jpg`
 
     ],
-    description: 'A simple React app showcasing a music band page, including member profiles and information about several albums. Built as a beginner React project to practice working with components and props.',
+    description: 'React template showcasing a music band page, including member profiles and information about several albums. Built as a beginner React project to practice working with components and props.',
     liveUrl: 'https://p.zalizko.site/react-projects/1-music-group-info/',
     gitHubUrl: 'https://github.com/Peter42306/my-app-hw2'
   },  
@@ -53,7 +53,7 @@ const allProjects = [
       `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-26-214339.jpg`
 
     ],
-    description: 'A React project displaying information cards for selected cities. Each card includes basic city facts and a carousel of images. The project demonstrates use of props, image carousels, and component reusability.',
+    description: 'React template displaying information cards for selected cities. Each card includes basic city facts and a carousel of images. The project demonstrates use of props, image carousels, and component reusability.',
     liveUrl: 'https://p.zalizko.site/react-projects/3-cities-carousels/',
     gitHubUrl: 'https://github.com/Peter42306/app-hw-2024-12-21-1325'
   },
@@ -68,7 +68,7 @@ const allProjects = [
       `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-26-221146.jpg`
 
     ],
-    description: 'A React application with React Router. Each page displays main ship data. The app demonstrates nested routes, props, and reusable components.',
+    description: 'React template with React Router. Each page displays main ship data. The app demonstrates nested routes, props, and reusable components.',
     liveUrl: 'https://p.zalizko.site/react-projects/6-navigation-vessels/#/',
     gitHubUrl: 'https://github.com/Peter42306/app-hw-navigation'
   },      
@@ -82,22 +82,22 @@ const allProjects = [
       `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-27-191934.jpg`
 
     ],
-    description: 'A simple React form with real-time validation and visual feedback. The form supports dropdowns, radio buttons, checkboxes, and saves submitted data to a downloadable JSON file.',
+    description: 'React template form with real-time validation and visual feedback. The form supports dropdowns, radio buttons, checkboxes, and saves submitted data to a downloadable JSON file.',
     liveUrl: 'https://p.zalizko.site/react-projects/validation-form-template/',
     gitHubUrl: 'https://github.com/Peter42306/app-hw-2025-01-16-forms'
   },  
-  {
-    title: 'Simple Calculator with Fixed Values',
-    images:[
-      `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-27-193148.jpg`,
-      `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-27-193225.jpg`,
-      `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-27-193356.jpg`
+  // {
+  //   title: 'Simple Calculator with Fixed Values',
+  //   images:[
+  //     `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-27-193148.jpg`,
+  //     `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-27-193225.jpg`,
+  //     `${process.env.PUBLIC_URL}/images/Screenshot-2025-05-27-193356.jpg`
 
-    ],
-    description: 'A minimalistic calculator built with React that takes a numeric input and computes fixed multipliers. Users can choose the number of decimal places and see a live history of calculations. Designed for practicing state management.',
-    liveUrl: 'https://p.zalizko.site/react-projects/calculator-for-fixed-values/',
-    gitHubUrl: 'https://github.com/Peter42306/app-hw-2025-01-16-forms'
-  },    
+  //   ],
+  //   description: 'A minimalistic calculator built with React that takes a numeric input and computes fixed multipliers. Users can choose the number of decimal places and see a live history of calculations. Designed for practicing state management.',
+  //   liveUrl: 'https://p.zalizko.site/react-projects/calculator-for-fixed-values/',
+  //   gitHubUrl: 'https://github.com/Peter42306/app-hw-2025-01-16-forms'
+  // },    
 ];
 
 const ProjectReact = () => {
