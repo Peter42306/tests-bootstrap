@@ -2,6 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5B990XWDT5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-5B990XWDT5');
+    </script>
+
     <title>Petr Zalizko | .NET Developer</title>
 
     <link rel="icon" href="%PUBLIC_URL%/notes1.svg" />
@@ -14,6 +24,8 @@
 
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />    
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <link rel="canonical" href="https://developer.p.zalizko.site/" />
     
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
@@ -39,6 +51,33 @@
       name="twitter:image"
       content="https://developer.p.zalizko.site/images/IMG_20240723_191756_og.jpg"
     />
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Petr Zalizko",
+        "url": "https://developer.p.zalizko.site/",
+        "image": "https://developer.p.zalizko.site/images/IMG_20240723_191756_og.jpg",
+        "jobTitle": ".NET Developer",
+        "description": "Full-stack developer building web applications with ASP.NET Core, React and PostgreSQL.",
+        "knowsAbout": [
+          "ASP.NET Core",
+          "ASP.NET Core MVC",
+          "ASP.NET Core Web API",
+          "C#",
+          "REST API",
+          "Entity Framework Core",
+          "React",
+          "PostgreSQL"
+        ],
+        "sameAs": [
+          "https://github.com/Peter42306",
+          "https://www.linkedin.com/in/petr-zalizko/"
+        ]
+      }
+    </script>
 
   </head>
   <body>

@@ -24,8 +24,10 @@ const ExperienceComponent = () => {
             <span className="text-success">2024 - Present</span>
           </p>
 
-          <p>Developed REST APIs using ASP.NET Core Web API.</p>
-          <p>Developed full-stack web applications using ASP.NET Core MVC, ASP.NET Core Web API and React.</p>
+          <p>Developed full-stack web applications using ASP.NET Core, React, PostgreSQL, and REST APIs, from database design to production deployment.</p>
+          <p>Built solutions for the maritime and cargo inspection domain, including calculations, reporting, photo management, image processing, and data processing.</p>
+          <p>Designed and developed REST APIs using ASP.NET Core Web API.</p>
+          <p>Built full-stack web applications using ASP.NET Core MVC, ASP.NET Core Web API and React.</p>
           <p>Worked with Entity Framework Core, LINQ, Code-First and Migrations.</p>
           <p>Deployed and maintained applications on Ubuntu servers using Nginx, systemd and SSH.</p>
           <p>Used PostgreSQL, SQL Server and SQLite.</p>
@@ -35,7 +37,7 @@ const ExperienceComponent = () => {
           <p>Integrated external services and libraries including SendGrid for email confirmation, contact forms and feedback forms, QuestPDF for PDF report generation, ClosedXML for Excel report generation, ImageSharp for image processing, and MapTiler for interactive maps.</p>
           <p>Implemented authentication and authorization using ASP.NET Core Identity, JWT and Google OAuth.</p>
           <p>Used Docker and Docker Compose.</p>
-          <p>Applied layered architecture, dependency injection, services, repositories.</p>
+          <p>Applied layered architecture, dependency injection, repository and service patterns.</p>
                       
         </div>        
 
